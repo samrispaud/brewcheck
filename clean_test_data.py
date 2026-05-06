@@ -27,7 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 DB_PATH = ROOT / "data" / "beer_data.json"
-CSV_DIR = Path("/Users/samrispaud/Downloads/files")
+CSV_DIR = ROOT / "data" / "sources"
 CSV_FILES = [
     "cookingaldante_results.csv",
     "gluteninbeer_results.csv",

@@ -46,16 +46,21 @@ brewcheck/
 │       ├── menuScanView.js
 │       └── disclaimerView.js
 ├── data/
-│   └── beer_data.json      # 250 beers (canonical copy lives at repo root)
+│   ├── beer_data.json      # 250 beers — canonical, served by the app
+│   └── sources/            # Raw per-source CSVs (one per source, version-controlled)
+│       ├── cookingaldante_results.csv
+│       ├── gluteninbeer_results.csv
+│       ├── lowgluten_org_results.csv
+│       ├── nfa_2009_results.csv
+│       └── smartgurlsolutions_results.csv
 ├── icons/                  # PWA icons (favicon, apple-touch, 192, 512, maskable)
-└── icon-master.png         # 1254×1254 source icon (regenerate other sizes from this)
+├── icon-master.png         # 1254×1254 source icon (regenerate other sizes from this)
+├── merge_csv_data.py       # data/sources/*.csv → data/beer_data.json (idempotent)
+├── clean_test_data.py      # Strips 'Mixed' verdicts and cross-source narration; idempotent
+└── data-extraction-guide.md  # Spec for scraping new sources into the CSV format
 ```
 
-**Root-level data tooling (kept, not part of the deployed site):**
-- `beer_data.json` — canonical source (also copied into `data/` for the web app)
-- `beer_gluten_test_results.csv`, `breweries.json`, `schema.sql`, `*.sql` — raw data
-- `convert_csv_to_json.py`, `deduplicate_beers.py`, `normalize_breweries.py`, `process_beer_tests.py` — regen tools
-- `data-extraction-guide.md` — notes on how the dataset was assembled
+**Data pipeline:** scrape into `data/sources/*.csv` → run `merge_csv_data.py` → run `clean_test_data.py` → commit `data/beer_data.json`. Both scripts are idempotent and can be re-run safely.
 
 ## Conventions
 

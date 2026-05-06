@@ -30,7 +30,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 DB_PATH = ROOT / "data" / "beer_data.json"
 BACKUP_PATH = ROOT / "data" / f"beer_data.backup-{datetime.now().strftime('%Y%m%d-%H%M%S')}.json"
-CSV_DIR = Path("/Users/samrispaud/Downloads/files")
+CSV_DIR = ROOT / "data" / "sources"
 
 CSV_FILES = [
     "cookingaldante_results.csv",
