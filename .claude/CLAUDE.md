@@ -1,6 +1,8 @@
+## Working Style
+
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
-## 1. Think Before Coding
+### 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
 
@@ -10,7 +12,7 @@ Before implementing:
 - If a simpler approach exists, say so. Push back when warranted.
 - If something is unclear, stop. Name what's confusing. Ask.
 
-## 2. Simplicity First
+### 2. Simplicity First
 
 **Minimum code that solves the problem. Nothing speculative.**
 
@@ -22,7 +24,7 @@ Before implementing:
 
 Ask yourself: "Would a senior engineer say this is overcomplicated?" If yes, simplify.
 
-## 3. Surgical Changes
+### 3. Surgical Changes
 
 **Touch only what you must. Clean up only your own mess.**
 
@@ -38,7 +40,7 @@ When your changes create orphans:
 
 The test: Every changed line should trace directly to the user's request.
 
-## 4. Goal-Driven Execution
+### 4. Goal-Driven Execution
 
 **Define success criteria. Loop until verified.**
 
@@ -55,3 +57,22 @@ For multi-step tasks, state a brief plan:
 ```
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
+
+## Stack
+
+- No build step. Plain ES modules, served directly by GitHub Pages.
+- No npm packages at runtime. Tesseract.js is the only CDN dependency, loaded on demand in `menuScanView.js`.
+- `service-worker.js` and `manifest.webmanifest` must stay at the repo root — moving them breaks PWA scope and offline support.
+- `data/beer_data.json` is the only data file the app fetches. All logic runs in the browser.
+
+## Scoring
+
+Tiers and scores are computed at runtime by `js/services/scoreEngine.js`. `gfConfidenceScore` in `beer_data.json` is a legacy field the display logic ignores — don't use it for anything new.
+
+## Data Pipeline
+
+Scrape → `data/sources/*.csv` → `python3 scripts/merge_csv_data.py` → `python3 scripts/clean_test_data.py` → commit `data/beer_data.json`. Both scripts are idempotent. `scripts/fill_test_dates.py` was a one-time backfill, not part of the regular pipeline.
+
+## Commits
+
+Prefixes: `feature:`, `maintenance:`, `documentation:`, `data:`, `bugfix:`. Spell them out — no conventional-commits shorthand.
