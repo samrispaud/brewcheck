@@ -2,7 +2,7 @@
 
 import { recognizeText, extractSearchTerms } from "../services/textRecognizer.js";
 import { searchMultiple } from "../data/beerDatabase.js";
-import { safetyFor } from "../services/recommendationEngine.js";
+import { safetyFor, summaryFor } from "../services/recommendationEngine.js";
 
 const els = {
   empty: null,
@@ -129,6 +129,7 @@ function formatStatus(s) {
 function rowHtml(match) {
   const { beer } = match;
   const safety = safetyFor(beer);
+  const summary = summaryFor(beer);
   const stylePill = beer.style ? `<span class="style-pill">${escapeHtml(beer.style)}</span>` : "";
   return `
     <button
@@ -145,6 +146,7 @@ function rowHtml(match) {
           ${stylePill}
           <span class="result-row__score" data-safety="${safety.key}">${escapeHtml(safety.label)}</span>
         </p>
+        <p class="result-row__summary">${escapeHtml(summary)}</p>
       </div>
       <span class="result-row__chev" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="18" height="18">

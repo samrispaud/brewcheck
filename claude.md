@@ -226,12 +226,72 @@ After completing each milestone:
 - Schema: `{ id, name, brewery, style, gfConfidenceScore (1–5), testResults[] }`
 - Personal use only; not medical advice. Batch variation disclaimer required for `gfConfidenceScore = 2` beers.
 
-## Safety Level Mapping
+## Scoring Methodology
 
-| Score | Level | Color | Notes |
-|------|-------|-------|-------|
-| 5 | Very Safe | Green | Multiple negative tests, well below 20ppm |
-| 4 | Safe | Light green | Below 20ppm |
-| 3 | Use Caution | Orange | Mixed results, consult doctor |
-| 2 | Batch Variation | Dark orange | Inconsistent — not recommended for celiac |
-| 1 | Not Recommended | Red | Above safe levels |
+The legacy `gfConfidenceScore` field on each beer is **ignored**. Tier and score are computed at runtime from raw test data via `js/services/scoreEngine.js`. The Python merge/clean scripts also no longer hand-set scores — they only manage the test rows.
+
+### Source weights
+
+Each source gets a weight = `kit_validity + methodological_rigor`, both 1–5.
+
+**Kit validity (1–5):** how appropriate is the test method for *fermented* beverages?
+- 5: R5 competitive ELISA (lab-grade, only validated method for beer)
+- 4: R5 lateral flow (R5 antibody, less precise)
+- 3: Skerritt polyclonal (EZ Gluten — appropriate for fragmented gluten)
+- 2: G12 monoclonal lateral flow (Reveal, GlutenTox — known kit limitations for beer)
+- 1: Sandwich ELISA (invalid for fermented products)
+
+**Methodological rigor (1–5):**
+- 5: Published lab study with controls + replicates
+- 4: Multi-kit testing per beer with photo + control evidence
+- 3: Home kit, often retests over time (dated and traceable)
+- 2: Home kit, single test per beer, summary table only
+- 1: Aggregated summary with little per-test provenance
+
+**Current sources:**
+
+| Source | Kit | Rigor | Weight |
+|---|---|---|---|
+| NFA 2009 (Swedish Food Agency) | 5 | 5 | **10** |
+| CookingAlDante (2022–23) | 3 | 5 | **8** |
+| GlutenInBeer (2013–15) | 3 | 4 | **7** |
+| SmartGurlSolutions (2018–20) | 2 | 3 | **5** |
+| lowgluten.org (2013–20) | 2 | 2 | **4** |
+
+To add a new source: score it on both dimensions, sum, and add to `SOURCE_WEIGHTS` in `scoreEngine.js`.
+
+### Per-test recency
+
+Every test is multiplied by a recency factor with a **10-year halflife**:
+
+```
+recency = 0.5 ^ (years_since_test / 10)
+```
+
+A 2026 test contributes 1.0× its source weight. A 2016 test contributes 0.5×. A 2009 NFA test contributes ~0.3×. Beer formulations drift; old data should fade.
+
+### Score formula
+
+```
+contribution    = source_weight × recency × (+1 if negative, −1 if positive)
+raw             = (Σ contributions) / (Σ |contributions|) × 50 + 50    # 0–100
+coverage        = min(1, n_distinct_sources / 3)
+batch_penalty   = 0.7 if any source has produced both pos and neg results, else 1.0
+reliability     = coverage × batch_penalty
+score           = round(raw × reliability)
+```
+
+### Tier resolution
+
+| Tier | Label | Rule |
+|---|---|---|
+| 5 | Consistently below 20 ppm | score ≥ 60 AND ≥ 2 distinct sources |
+| 4 | Likely below 20 ppm | score ≥ 45 AND ≥ 2 distinct sources |
+| 3 | Inconsistent | score ≥ 25 AND ≥ 2 distinct sources |
+| — | **Limited evidence** | only 1 distinct source has tested it (any direction) |
+| 2 | Often above 20 ppm | score ≥ 10 AND ≥ 2 distinct sources |
+| 1 | Above 20 ppm | score < 10 AND ≥ 2 distinct sources |
+
+The "Limited evidence" tier is non-judgmental — a single source is too thin to support a confident "safe" or "unsafe" claim. Within the UI it's shown in neutral gray rather than the safe→unsafe color spectrum.
+
+**No numeric score for Limited Evidence beers.** A single data point doesn't justify a 0–100 number; the algorithm computes one but `tierFor()` deliberately returns `score: null` for these beers so the UI shows only the tier label plus the actual test result. The reader decides.

@@ -1,19 +1,20 @@
-// Generates safety explanation text for a beer.
-// Direct port of RecommendationEngine.swift.
+// Recommendation surface — wraps scoreEngine to provide UI-ready data.
+// Replaces the legacy gfConfidenceScore-based scoring with a computed
+// algorithm; see scoreEngine.js for the math.
 
-export const SAFETY_LEVELS = {
-  5: { key: "very-safe", label: "Very Safe" },
-  4: { key: "safe",      label: "Safe" },
-  3: { key: "caution",   label: "Use Caution" },
-  2: { key: "batch",     label: "Batch Variation" },
-  1: { key: "danger",    label: "Not Recommended" },
-};
+import { tierFor, evidenceSummary, evaluateBeer } from "./scoreEngine.js";
 
+// Map tier keys to UI color buckets. Aligned with CSS data-safety values.
 export function safetyFor(beer) {
-  return SAFETY_LEVELS[beer.gfConfidenceScore] || SAFETY_LEVELS[1];
+  const t = tierFor(beer);
+  return { key: t.key, label: t.label, score: t.score, sources: t.sources, batchVariation: t.batchVariation };
 }
 
-// Test result helpers (replace Swift computed properties)
+export function summaryFor(beer) {
+  return evidenceSummary(beer);
+}
+
+// Test-row helpers (used by detail view)
 
 export function ppmValue(testResult) {
   const m = String(testResult.testResult).toLowerCase().match(/(\d+\.?\d*)\s*ppm/);
@@ -34,62 +35,51 @@ export function formatDate(isoDate) {
   return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
 }
 
-// Beer-level aggregations
-
-function ppmList(beer) {
-  return beer.testResults.map(ppmValue).filter(v => v !== null);
-}
-
-export function averagePPM(beer) {
-  const list = ppmList(beer);
-  if (!list.length) return null;
-  return list.reduce((a, b) => a + b, 0) / list.length;
-}
-
-export function lowestPPM(beer) {
-  const list = ppmList(beer);
-  return list.length ? Math.min(...list) : null;
-}
-
-export function highestPPM(beer) {
-  const list = ppmList(beer);
-  return list.length ? Math.max(...list) : null;
-}
-
+// Long-form assessment text for the detail view.
 export function generateExplanation(beer) {
-  const score = beer.gfConfidenceScore;
-  const testCount = beer.testResults.length;
-  const avg = averagePPM(beer);
-  const lo = lowestPPM(beer);
-  const hi = highestPPM(beer);
-  const f = n => n.toFixed(1);
+  const t = tierFor(beer);
+  const ev = evaluateBeer(beer);
+  const ns = t.sources;
+  const { nNeg, nPos, batchVariation } = t;
 
-  let explanation = "";
-  if (score === 5) {
-    explanation = "This beer is considered very safe for gluten-free diets. ";
-    if (avg !== null) explanation += `Average test result: ${f(avg)} ppm. `;
-    explanation += "Well below the FDA gluten-free standard of 20 ppm.";
-  } else if (score === 4) {
-    explanation = "This beer is generally safe for gluten-free diets. ";
-    if (avg !== null) explanation += `Average test result: ${f(avg)} ppm. `;
-    explanation += "Below the FDA gluten-free standard of 20 ppm.";
-  } else if (score === 3) {
-    explanation = "Use caution with this beer. ";
-    if (avg !== null) explanation += `Average test result: ${f(avg)} ppm. `;
-    explanation += "Results may vary. Consult with your healthcare provider.";
-  } else if (score === 2) {
-    explanation = "⚠️ Batch variation detected. This beer has shown inconsistent test results across different batches. ";
-    if (lo !== null && hi !== null) explanation += `PPM range: ${f(lo)} – ${f(hi)} ppm. `;
-    explanation += "Some batches test safe while others may not. We do not recommend this beer for those with celiac disease.";
-  } else {
-    explanation = "Not recommended for gluten-free diets. ";
-    if (avg !== null) explanation += `Average test result: ${f(avg)} ppm. `;
-    explanation += "Above safe levels for celiac disease.";
+  let explanation;
+  switch (t.key) {
+    case "consistently-safe":
+      explanation = `Consistently negative across ${ns} sources (${nNeg} negative tests, no positives). The strongest evidence pattern in the dataset.`;
+      break;
+    case "likely-safe":
+      explanation = `Mostly negative results across ${ns} sources (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). Evidence leans clearly toward "below 20 ppm" but isn't unanimous.`;
+      break;
+    case "inconsistent":
+      explanation = `Tests across ${ns} sources disagree (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). The data is genuinely mixed — treat as uncertain.`;
+      break;
+    case "limited":
+      if (nPos === 0) {
+        explanation = `Only one source has tested this beer (${nNeg} negative result${nNeg === 1 ? "" : "s"}). The result is promising but a single test is too thin to support a confident "safe" claim.`;
+      } else if (nNeg === 0) {
+        explanation = `Only one source has tested this beer (${nPos} positive result${nPos === 1 ? "" : "s"}). The result is concerning but a single test isn't conclusive.`;
+      } else {
+        explanation = `Only one source has tested this beer with mixed results. Too thin to draw a confident conclusion either way.`;
+      }
+      break;
+    case "often-above":
+      explanation = `Mostly positive results across ${ns} sources (${nPos} positive${nPos === 1 ? "" : "s"} vs ${nNeg} negative${nNeg === 1 ? "" : "s"}). Evidence leans toward "above the 20 ppm threshold."`;
+      break;
+    case "above":
+    default:
+      explanation = `Tests consistently report gluten above safe levels across ${ns} source${ns === 1 ? "" : "s"} (${nPos} positive vs ${nNeg} negative).`;
+      break;
   }
 
-  explanation += testCount === 1
-    ? "\n\nBased on 1 test result."
-    : `\n\nBased on ${testCount} test results.`;
+  if (batchVariation) {
+    explanation += " ⚠ At least one source has reported both positive and negative results across different test runs — batch variation is a real concern.";
+  }
 
+  // Numeric score is shown only when we have ≥2 sources. Single-source beers
+  // get the Limited Evidence label and the raw test row(s) — no number, so
+  // the reader isn't anchored on a misleading single-data-point computation.
+  if (t.key !== "limited" && ev && ev.score !== null) {
+    explanation += `\n\nScore: ${ev.score}/100.`;
+  }
   return explanation;
 }

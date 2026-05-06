@@ -3,6 +3,7 @@
 import { getBeer } from "../data/beerDatabase.js";
 import {
   safetyFor,
+  summaryFor,
   generateExplanation,
   isNegative,
   isPositive,
@@ -28,6 +29,7 @@ export function renderBeer(id) {
   }
 
   const safety = safetyFor(beer);
+  const summary = summaryFor(beer);
   const explanation = generateExplanation(beer);
 
   els.content.innerHTML = `
@@ -37,14 +39,30 @@ export function renderBeer(id) {
       <span class="detail-hero__safety">
         <span class="safety-dot" data-safety="${safety.key}"></span>
         ${escapeHtml(safety.label)}
-        <span class="detail-hero__score">${beer.gfConfidenceScore}/5</span>
       </span>
+      <p class="detail-hero__summary">${escapeHtml(summary)}</p>
     </div>
 
     <section class="detail-section">
       <h2>Safety assessment</h2>
       <p class="assessment">${escapeHtml(explanation)}</p>
     </section>
+
+    <details class="detail-section detail-section--methodology">
+      <summary>How is this scored?</summary>
+      <p>
+        Each test contributes a weight based on its source's kit quality and how recent it is
+        (10-year halflife). Negative tests push the score up, positives push it down. The score
+        is capped by source coverage (a beer tested by one source can't reach the top tier) and
+        reduced if the same source has produced both positive and negative results across
+        different runs (batch variation).
+      </p>
+      <p>
+        Tier cutoffs: 60+ Consistently below 20 ppm, 45+ Likely below 20 ppm, 25+ Inconsistent,
+        10+ Often above 20 ppm, &lt;10 Above 20 ppm. Beers with only one source tested are shown
+        as "Limited evidence" regardless of score.
+      </p>
+    </details>
 
     <section class="detail-section">
       <h2>Test results (${beer.testResults.length})</h2>
