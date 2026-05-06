@@ -45,3 +45,6 @@ __pycache__/
 *.swo
 *~
 .tmp/
+
+# Claude Code local state
+.claude/
