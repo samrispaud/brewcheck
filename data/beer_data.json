@@ -31,14 +31,6 @@
         "testNotes": "No visible pink spot in test area. Pink control spot confirmed proper test execution. German brewed."
       },
       {
-        "id": "01174dd8-993c-4ee0-8adb-26e3d8aa95f1",
-        "testType": "EZ Gluten",
-        "testResult": "Mixed",
-        "testDate": "",
-        "testLink": "http://gluteninbeer.blogspot.com/",
-        "testNotes": "Result unclear from available data. Listed as borderline in summary chart. Confirmed negative by lowgluten.org on both kits."
-      },
-      {
         "id": "286c6ad9-79ba-4a76-87e5-62b26a8865e7",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
@@ -406,7 +398,7 @@
         "testResult": "Negative at 10ppm",
         "testDate": "",
         "testLink": "http://gluteninbeer.blogspot.com/",
-        "testNotes": "Confirmed negative. Later contradicted by CookingAlDante (2022)."
+        "testNotes": "Confirmed negative."
       }
     ],
     "breweryId": "50e34797-0489-447d-8fd9-f3eda738b048"
@@ -443,12 +435,12 @@
         "testNotes": "Absolutely nothing visible in test area. Control spot appeared pink. No detectable gluten at very low detection limit."
       },
       {
-        "id": "43f2f9f1-8510-4e15-9e70-f12acafaed78",
+        "id": "293012c1-a742-4909-8d79-ae2c41179737",
         "testType": "EZ Gluten",
-        "testResult": "Mixed",
-        "testDate": "2022-01-01",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-06-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "January 2022 test negative; later 2022 retests showed positive. Inconsistent results across multiple tests."
+        "testNotes": "Retest later in 2022 returned positive."
       },
       {
         "id": "d5784d6f-d3e2-4b1c-8abe-dfee2f021901",
@@ -604,7 +596,7 @@
         "testResult": "Positive 3-4ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 3-4ppm. Positive per site."
+        "testNotes": "Estimated 3-4ppm."
       },
       {
         "id": "75c465f5-4974-439c-9bf8-f660865cc174",
@@ -905,12 +897,20 @@
         "testNotes": "Less than 20ppm. Consumer drank entire 24 oz can within one hour with no adverse reaction."
       },
       {
-        "id": "cbc47d74-10f8-443a-bf85-8c304ba996b8",
+        "id": "9fd26e46-d995-4f92-9848-ed17e3f47a31",
         "testType": "EZ Gluten",
-        "testResult": "Mixed",
+        "testResult": "Negative at 10ppm",
         "testDate": "2022-01-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "January 2022 negative; October 2022 retest positive. Inconsistent results."
+        "testNotes": "Initial January 2022 test."
+      },
+      {
+        "id": "baff80f6-895d-4ac0-8c3d-f86f16e19612",
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-10-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
+        "testNotes": "October 2022 retest returned positive."
       },
       {
         "id": "082dd5f3-7a75-4180-8283-d5e473b9755b",
@@ -918,7 +918,7 @@
         "testResult": "Negative at 10ppm",
         "testDate": "",
         "testLink": "http://gluteninbeer.blogspot.com/",
-        "testNotes": "Confirmed negative. Later partially contradicted by CookingAlDante."
+        "testNotes": "Confirmed negative."
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -1310,7 +1310,7 @@
         "testResult": "Negative at 5ppm",
         "testDate": "",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
-        "testNotes": "Not consumed by tester. Contradicted by CookingAlDante (positive 2022)."
+        "testNotes": "Not consumed by tester."
       }
     ],
     "breweryId": "cf2cfeb0-4e29-4103-89b7-1e0383f56f97"
@@ -1646,7 +1646,7 @@
         "testResult": "Negative at 10ppm",
         "testDate": "",
         "testLink": "http://gluteninbeer.blogspot.com/",
-        "testNotes": "Confirmed negative per blog summary chart. Contradicted by NFA 2009 (15-21ppm) and CookingAlDante (positive)."
+        "testNotes": null
       },
       {
         "id": "e2f11585-f27e-40a2-a218-af5cda50e1b5",
@@ -1763,12 +1763,12 @@
         "testNotes": "June 2022 test was negative, October 2022 retest was positive. Inconsistent/discordant results noted as (-/+/+/+)"
       },
       {
-        "id": "437b9081-2776-4591-a8f3-61521b998873",
+        "id": "6df0c0d2-7d3e-4c9e-bca8-bf13dbfeb5a3",
         "testType": "EZ Gluten",
-        "testResult": "Mixed",
-        "testDate": "2022-06-01",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-10-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "June 2022 negative; October 2022 retest positive. Discordant results noted as (-/+/+/+)"
+        "testNotes": "Retest pattern across multiple draws was -/+/+/+; majority positive."
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -2078,7 +2078,7 @@
         "testResult": "Positive 6ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 6ppm. Positive per site."
+        "testNotes": "Estimated 6ppm."
       }
     ],
     "breweryId": "4c95fa0a-49c8-4866-91d3-2b09ef1a8dbf"
@@ -2342,7 +2342,7 @@
         "testResult": "Positive 1ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 1ppm. Positive per site."
+        "testNotes": "Estimated 1ppm."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -2460,7 +2460,7 @@
         "testResult": "Positive 1-2ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 1-2ppm. Positive per site."
+        "testNotes": "Estimated 1-2ppm."
       }
     ],
     "breweryId": "23a965f2-41b2-48fa-b685-96f6f829ce6b"
@@ -2978,7 +2978,7 @@
         "testResult": "Positive 1-2ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 1-2ppm. Positive per site."
+        "testNotes": "Estimated 1-2ppm."
       }
     ],
     "breweryId": "2d173227-dbe7-4b08-87ee-f313519454bf"
@@ -3076,7 +3076,7 @@
         "testResult": "Positive 3-4ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 3-4ppm. Positive per site."
+        "testNotes": "Estimated 3-4ppm."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -3216,7 +3216,7 @@
         "testResult": "Positive 1ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 1ppm. Positive per site."
+        "testNotes": "Estimated 1ppm."
       }
     ],
     "breweryId": "cf2cfeb0-4e29-4103-89b7-1e0383f56f97"
@@ -3237,12 +3237,12 @@
         "testNotes": "June 2022 test was positive, September 2022 retest was negative. Inconsistent results"
       },
       {
-        "id": "aa36d6d5-0769-4e8e-a1e0-33dd871c6bd3",
+        "id": "d9e3325a-d58f-4c1b-938c-30b365c7777b",
         "testType": "EZ Gluten",
-        "testResult": "Mixed",
-        "testDate": "2022-06-01",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2022-09-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "June 2022 positive; September 2022 retest negative. Inconsistent results."
+        "testNotes": "September 2022 retest returned negative."
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -3286,7 +3286,7 @@
         "testResult": "Negative at 5ppm",
         "testDate": "",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
-        "testNotes": "Contradicted by CookingAlDante (positive 2022)."
+        "testNotes": null
       }
     ],
     "breweryId": "c8b938d2-bea0-41ce-b903-15c9f4394a97"
@@ -3438,7 +3438,7 @@
         "testResult": "Positive 3ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 3ppm. Positive per site."
+        "testNotes": "Estimated 3ppm."
       }
     ],
     "breweryId": "735b67fa-1b45-453f-9c66-0a8784b7d3cd"
@@ -3482,7 +3482,7 @@
         "testResult": "Positive 4ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 4ppm. Positive per site."
+        "testNotes": "Estimated 4ppm."
       }
     ],
     "breweryId": "0ee29bff-347c-4498-85fa-03b8bdf8a92f"
@@ -3606,7 +3606,7 @@
         "testResult": "Positive 2-3ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 2-3ppm. Positive per site."
+        "testNotes": "Estimated 2-3ppm."
       }
     ],
     "breweryId": "c0dac71f-2918-45ce-ba7b-1e7df74d97ac"
@@ -3686,7 +3686,7 @@
         "testResult": "Positive 3ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 3ppm. Positive per site."
+        "testNotes": "Estimated 3ppm."
       }
     ],
     "breweryId": "28a17437-5cb2-4f70-98ad-321d13fa3351"
@@ -3784,7 +3784,7 @@
         "testResult": "Positive 2ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 2ppm. Positive per site."
+        "testNotes": "Estimated 2ppm."
       }
     ],
     "breweryId": "43932207-ea88-4019-8fc8-6373e6ca5583"
@@ -3941,7 +3941,7 @@
         "testResult": "Positive 5-6ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 5-6ppm. Positive per site classification. Labeled gluten-reduced."
+        "testNotes": "Estimated 5-6ppm. Labeled gluten-reduced."
       }
     ]
   },
@@ -3975,7 +3975,7 @@
         "testResult": "Positive 8-9ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 8-9ppm. Positive per site."
+        "testNotes": "Estimated 8-9ppm."
       }
     ]
   },
@@ -4009,7 +4009,7 @@
         "testResult": "Positive 4-5ppm",
         "testDate": "",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 4-5ppm. Positive per site."
+        "testNotes": "Estimated 4-5ppm."
       }
     ]
   },
