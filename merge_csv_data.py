@@ -73,6 +73,12 @@ def norm(s):
     return s
 
 
+def kit_key(s):
+    """Aggressive kit-name normalization: strip all whitespace and hyphens
+    so 'E-Z Gluten' and 'EZ Gluten' collapse to the same key."""
+    return re.sub(r"[\-\s]+", "", (s or "").lower().strip())
+
+
 def parse_ppm(test_result):
     """Pull a numeric ppm value out of strings like 'Negative at 10ppm' or 'Positive 48ppm'."""
     if not test_result:
@@ -200,10 +206,11 @@ def main(dry_run=False):
 
             if target_key:
                 target = db_by_norm[target_key]
-                # Skip if duplicate
-                existing_keys = {(norm(t.get("testType", "")), norm(t.get("testResult", "")))
+                # Skip if duplicate. Use kit-key (strips hyphens/spaces) so
+                # 'E-Z Gluten' and 'EZ Gluten' collapse to the same entry.
+                existing_keys = {(kit_key(t.get("testType", "")), norm(t.get("testResult", "")))
                                  for t in target["testResults"]}
-                tk = (norm(test_obj["testType"]), norm(test_obj["testResult"]))
+                tk = (kit_key(test_obj["testType"]), norm(test_obj["testResult"]))
                 if tk in existing_keys:
                     tests_skipped_duplicate += 1
                     continue

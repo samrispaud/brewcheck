@@ -168,24 +168,39 @@ JSON_MIXED_REPLACEMENTS = {
 }
 
 
+def _kit_key(s):
+    """Aggressive kit-name normalization: strip hyphens/whitespace so
+    'E-Z Gluten' and 'EZ Gluten' collapse to the same key."""
+    return re.sub(r"[\-\s]+", "", (s or "").lower().strip())
+
+
+def _result_key(s):
+    return re.sub(r"\s+", " ", (s or "").lower().strip())
+
+
 def dedupe_tests(tests):
-    """Drop exact duplicates by (testType_norm, testResult_norm, testDate).
-    A duplicate often arises when an editorial 'Mixed' row was split into a
-    Negative + Positive pair that re-states a test already in the dataset.
-    Earliest occurrence (richer notes/links) wins."""
-    seen = set()
-    out = []
+    """Drop duplicates by (testType_norm, testResult_norm, testDate).
+    For each duplicate group, keep the row with the richest testNotes —
+    repeated imports of the same source row often differ only in how
+    much detail the scraper captured."""
+    groups = {}
+    order = []
     for t in tests:
         key = (
-            re.sub(r"\s+", " ", (t.get("testType") or "").strip().lower()),
-            re.sub(r"\s+", " ", (t.get("testResult") or "").strip().lower()),
+            _kit_key(t.get("testType")),
+            _result_key(t.get("testResult")),
             (t.get("testDate") or "").strip(),
         )
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(t)
-    return out
+        if key not in groups:
+            groups[key] = t
+            order.append(key)
+        else:
+            cur = groups[key]
+            cur_len = len(cur.get("testNotes") or "")
+            new_len = len(t.get("testNotes") or "")
+            if new_len > cur_len:
+                groups[key] = t
+    return [groups[k] for k in order]
 
 
 def process_json(db):

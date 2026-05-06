@@ -391,14 +391,6 @@
         "testDate": "2014-01-02",
         "testLink": "https://www.lowgluten.org/coors-light-gluten-test/",
         "testNotes": "No indication of more than 5 ppm gluten. Purchased in Germany."
-      },
-      {
-        "id": "1a7f853a-ec3f-4a9c-814a-986979723a5a",
-        "testType": "EZ Gluten",
-        "testResult": "Negative at 10ppm",
-        "testDate": "2014-02-01",
-        "testLink": "http://gluteninbeer.blogspot.com/2014/02/coors-light.html",
-        "testNotes": "Confirmed negative."
       }
     ],
     "breweryId": "50e34797-0489-447d-8fd9-f3eda738b048"
