@@ -122,6 +122,23 @@ body {
   padding-top: var(--space-4);
 }
 
+.info-btn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; height: 40px;
+  background: transparent;
+  color: var(--cream-100);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: inherit;
+  flex-shrink: 0;
+  transition: background 120ms;
+}
+.info-btn:hover { background: rgba(255, 255, 255, 0.08); }
+
 .brand-mark {
   display: block;
   width: 44px; height: 44px;
@@ -770,6 +787,89 @@ main {
   min-height: var(--tap-min);
 }
 .scan-reset:hover { border-color: var(--navy-700); }
+
+/* ─── Disclaimer sheet ─── */
+
+.sheet {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 27, 92, 0.45);
+  z-index: 50;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: sheet-fade 180ms ease-out;
+}
+@keyframes sheet-fade { from { background: rgba(15,27,92,0); } }
+
+.sheet[hidden] { display: none; }
+
+.sheet__content {
+  background: var(--white);
+  width: 100%;
+  max-width: 720px;
+  max-height: 88vh;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: var(--space-5) var(--space-5) calc(var(--space-6) + env(safe-area-inset-bottom, 0));
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 -10px 40px rgba(15, 27, 92, 0.2);
+  animation: sheet-slide 220ms ease-out;
+}
+@keyframes sheet-slide { from { transform: translateY(100%); } }
+
+.sheet__close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  width: 36px; height: 36px;
+  background: var(--cream-100);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--ink-700);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.sheet__close:hover { background: var(--cream-200); }
+
+.sheet__content h2 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  margin: 0 var(--space-7) var(--space-3) 0;
+  letter-spacing: -0.01em;
+}
+.sheet__content h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-500);
+  margin: var(--space-5) 0 var(--space-2);
+  font-weight: 700;
+}
+.sheet__content p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-900);
+  margin: 0 0 var(--space-3);
+}
+.sheet__content ul {
+  margin: 0 0 var(--space-3);
+  padding-left: var(--space-5);
+  color: var(--ink-700);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.sheet__footnote {
+  font-size: 12px;
+  color: var(--ink-500);
+  margin-top: var(--space-4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sheet, .sheet__content { animation: none; }
+}
 
 /* ─── Footer ─── */
 

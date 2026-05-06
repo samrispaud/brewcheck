@@ -7,7 +7,13 @@
   <meta name="description" content="BrewCheck — Is your beer gluten-safe? Search 187 verified gluten test results." />
   <title>BrewCheck — Is your beer gluten-safe?</title>
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="icon-master.png" type="image/png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png" />
+  <meta name="apple-mobile-web-app-title" content="BrewCheck" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -19,6 +25,13 @@
         <h1>BrewCheck</h1>
         <p class="tagline">Is your beer gluten-safe?</p>
       </div>
+      <button id="info-btn" class="info-btn" type="button" aria-label="About this app and disclaimer">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+          <line x1="12" y1="11" x2="12" y2="17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="12" cy="7.5" r="1.1" fill="currentColor"/>
+        </svg>
+      </button>
     </div>
   </header>
 
@@ -142,6 +155,47 @@
       <button type="button" onclick="location.reload()">Reload</button>
     </section>
   </main>
+
+  <div id="disclaimer-sheet" class="sheet" role="dialog" aria-modal="true" aria-labelledby="disclaimer-title" hidden>
+    <div class="sheet__content">
+      <button id="disclaimer-close" class="sheet__close" type="button" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <h2 id="disclaimer-title">About BrewCheck</h2>
+      <p>
+        BrewCheck checks user queries against a database of community-tested gluten test results
+        for 170 beers. It runs entirely in your browser — no accounts, no analytics, no network
+        calls beyond fetching the dataset.
+      </p>
+      <h3>Personal use only — not medical advice</h3>
+      <p>
+        The information here is gathered from public test results and is not a substitute for
+        guidance from a doctor or registered dietitian. If you have celiac disease, when in doubt,
+        avoid the beer.
+      </p>
+      <h3>About the FDA standard</h3>
+      <p>
+        The FDA defines "gluten-free" as containing fewer than 20 ppm of gluten. BrewCheck color-codes
+        beers based on test results relative to that threshold and consistency across batches.
+      </p>
+      <h3>Batch variation</h3>
+      <p>
+        Beers marked <strong>Batch Variation</strong> have shown inconsistent results across different
+        batches — some test safe, others don't. We do not recommend these beers for celiac diets.
+      </p>
+      <h3>Data sources</h3>
+      <ul>
+        <li>GlutenInBeer.blogspot.com</li>
+        <li>LowGluten.org</li>
+        <li>CookingAlDante.com</li>
+        <li>SmartGurlSolutions.com</li>
+      </ul>
+      <p class="sheet__footnote">Data last updated December 2025.</p>
+    </div>
+  </div>
 
   <nav class="bottom-nav" aria-label="Main">
     <button class="nav-tab" data-tab="search" type="button" aria-current="page">

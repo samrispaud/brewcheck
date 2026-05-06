@@ -14,6 +14,12 @@ const els = {
 };
 
 let recognizer = null;
+let debounceTimer = null;
+
+function debouncedHandleInput() {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(handleInput, 250);
+}
 
 export function initSearchView({ onSelectBeer }) {
   els.input = document.getElementById("search-input");
@@ -23,10 +29,10 @@ export function initSearchView({ onSelectBeer }) {
   els.results = document.getElementById("results");
   els.emptyState = document.getElementById("empty-state");
 
-  els.input.addEventListener("input", handleInput);
+  els.input.addEventListener("input", debouncedHandleInput);
   els.clearBtn.addEventListener("click", () => {
     els.input.value = "";
-    handleInput();
+    handleInput();  // immediate clear, no debounce
     els.input.focus();
   });
 
@@ -61,7 +67,7 @@ function initVoiceSearch() {
     onResult: ({ transcript }) => {
       if (!transcript) return;
       els.input.value = transcript;
-      handleInput();
+      handleInput();  // voice transcript: search immediately
     },
     onEnd: () => {
       setMicState("idle");

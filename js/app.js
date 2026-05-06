@@ -67,6 +67,33 @@ function setupNav() {
   });
 }
 
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  // Service workers require https or localhost; skip otherwise to avoid noise.
+  const isLocalhost = ["localhost", "127.0.0.1"].includes(location.hostname);
+  if (location.protocol !== "https:" && !isLocalhost) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./service-worker.js")
+      .catch((err) => console.warn("SW registration failed:", err));
+  });
+}
+
+function setupDisclaimer() {
+  const btn = document.getElementById("info-btn");
+  const sheet = document.getElementById("disclaimer-sheet");
+  const close = document.getElementById("disclaimer-close");
+  if (!btn || !sheet) return;
+  const open = () => { sheet.hidden = false; close?.focus(); };
+  const dismiss = () => { sheet.hidden = true; btn.focus(); };
+  btn.addEventListener("click", open);
+  close?.addEventListener("click", dismiss);
+  sheet.addEventListener("click", (e) => { if (e.target === sheet) dismiss(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !sheet.hidden) dismiss();
+  });
+}
+
 async function main() {
   showView("loading");
 
@@ -74,6 +101,7 @@ async function main() {
   initBeerDetailView({ onBack: () => history.back() });
   initMenuScanView({ onSelectBeer: navigateToBeer });
   setupNav();
+  setupDisclaimer();
 
   try {
     await loadDatabase();
@@ -88,6 +116,8 @@ async function main() {
   handleRoute();
 
   if (!location.hash) focusSearch();
+
+  registerServiceWorker();
 }
 
 main();
