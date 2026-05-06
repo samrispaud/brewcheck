@@ -13,8 +13,8 @@ Behavior:
 - Skips empty rows and exact-duplicate tests.
 
 Usage:
-    python3 merge_csv_data.py            # apply merge
-    python3 merge_csv_data.py --dry-run  # show counts without writing
+    python3 scripts/merge_csv_data.py            # apply merge
+    python3 scripts/merge_csv_data.py --dry-run  # show counts without writing
 """
 
 import csv
@@ -27,7 +27,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 DB_PATH = ROOT / "data" / "beer_data.json"
 BACKUP_PATH = ROOT / "data" / f"beer_data.backup-{datetime.now().strftime('%Y%m%d-%H%M%S')}.json"
 CSV_DIR = ROOT / "data" / "sources"

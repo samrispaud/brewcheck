@@ -12,8 +12,8 @@ Operates on the 5 source CSVs in /Users/samrispaud/Downloads/files/ and
 on data/beer_data.json. Idempotent.
 
 Usage:
-    python3 clean_test_data.py            # apply
-    python3 clean_test_data.py --dry-run  # preview
+    python3 scripts/clean_test_data.py            # apply
+    python3 scripts/clean_test_data.py --dry-run  # preview
 """
 
 import csv
@@ -25,7 +25,7 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 DB_PATH = ROOT / "data" / "beer_data.json"
 CSV_DIR = ROOT / "data" / "sources"
 CSV_FILES = [

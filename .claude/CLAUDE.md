@@ -53,14 +53,15 @@ brewcheck/
 │       ├── lowgluten_org_results.csv
 │       ├── nfa_2009_results.csv
 │       └── smartgurlsolutions_results.csv
-├── icons/                  # PWA icons (favicon, apple-touch, 192, 512, maskable)
-├── icon-master.png         # 1254×1254 source icon (regenerate other sizes from this)
-├── merge_csv_data.py       # data/sources/*.csv → data/beer_data.json (idempotent)
-├── clean_test_data.py      # Strips 'Mixed' verdicts and cross-source narration; idempotent
-└── data-extraction-guide.md  # Spec for scraping new sources into the CSV format
+├── icons/                  # PWA icons + icon-master.png (1254×1254 source)
+├── scripts/
+│   ├── merge_csv_data.py   # data/sources/*.csv → data/beer_data.json (idempotent)
+│   └── clean_test_data.py  # Strips 'Mixed' verdicts and cross-source narration; idempotent
+└── docs/
+    └── data-extraction-guide.md  # Spec for scraping new sources into the CSV format
 ```
 
-**Data pipeline:** scrape into `data/sources/*.csv` → run `merge_csv_data.py` → run `clean_test_data.py` → commit `data/beer_data.json`. Both scripts are idempotent and can be re-run safely.
+**Data pipeline:** scrape into `data/sources/*.csv` → run `python3 scripts/merge_csv_data.py` → run `python3 scripts/clean_test_data.py` → commit `data/beer_data.json`. Both scripts are idempotent and can be re-run safely.
 
 ## Conventions
 

@@ -18,8 +18,8 @@ the original Swift dataset. CSV rows can also pick up the per-post URL
 Idempotent: re-running on already-dated data is a no-op.
 
 Usage:
-    python3 fill_test_dates.py            # apply
-    python3 fill_test_dates.py --dry-run  # preview
+    python3 scripts/fill_test_dates.py            # apply
+    python3 scripts/fill_test_dates.py --dry-run  # preview
 """
 
 import csv
@@ -31,7 +31,7 @@ from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 DB_PATH = ROOT / "data" / "beer_data.json"
 CSV_DIR = ROOT / "data" / "sources"
 
