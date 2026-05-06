@@ -72,11 +72,38 @@
         <p id="voice-status" class="voice-status" role="status" aria-live="polite" hidden></p>
       </div>
 
+      <div class="filters" aria-label="Filter results">
+        <button id="filter-toggle" class="filters__toggle" type="button" aria-expanded="false" aria-controls="filter-panel">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <line x1="4"  y1="7"  x2="20" y2="7"  stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="4"  y1="12" x2="20" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line x1="4"  y1="17" x2="20" y2="17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="9"  cy="7"  r="2.4" fill="var(--cream-50)" stroke="currentColor" stroke-width="2"/>
+            <circle cx="15" cy="12" r="2.4" fill="var(--cream-50)" stroke="currentColor" stroke-width="2"/>
+            <circle cx="8"  cy="17" r="2.4" fill="var(--cream-50)" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <span>Filters</span>
+          <span id="filter-count" class="filters__count" hidden>0</span>
+        </button>
+        <button id="filter-clear" class="filters__clear" type="button" hidden>Clear</button>
+        <div id="filter-panel" class="filters__panel" hidden>
+          <fieldset class="filter-group">
+            <legend>Safety</legend>
+            <div id="tier-chips" class="chip-group" role="group" aria-label="Filter by safety"></div>
+          </fieldset>
+          <fieldset class="filter-group">
+            <legend>Style</legend>
+            <div id="style-chips" class="chip-group" role="group" aria-label="Filter by style"></div>
+          </fieldset>
+        </div>
+      </div>
+
+      <p id="results-summary" class="results-summary" aria-live="polite"></p>
       <div id="results" class="results" aria-live="polite"></div>
 
-      <div id="empty-state" class="empty-state">
-        <p class="empty-state__lede">Search 187 beers tested for gluten.</p>
-        <p class="empty-state__hint">Type a beer name above. Question phrasing is OK — try <em>"can I drink Corona?"</em></p>
+      <div id="empty-state" class="empty-state" hidden>
+        <p class="empty-state__lede">No beers match these filters.</p>
+        <p class="empty-state__hint">Try clearing filters or searching for a beer name. Question phrasing is OK — try <em>"can I drink Corona?"</em></p>
       </div>
     </section>
 

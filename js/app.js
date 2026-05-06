@@ -1,7 +1,7 @@
 // App bootstrap: load DB, hash routing, tab nav.
 
 import { loadDatabase } from "./data/beerDatabase.js";
-import { initSearchView, focusSearch } from "./views/searchView.js";
+import { initSearchView, focusSearch, renderSearch } from "./views/searchView.js";
 import { initBeerDetailView, renderBeer } from "./views/beerDetailView.js";
 import { initMenuScanView } from "./views/menuScanView.js";
 
@@ -112,6 +112,7 @@ async function main() {
     return;
   }
 
+  renderSearch();
   window.addEventListener("hashchange", handleRoute);
   handleRoute();
 

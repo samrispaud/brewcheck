@@ -35,6 +35,46 @@ const TIERS = {
 
 const LIMITED = { key: "limited", label: "Limited evidence" };
 
+// Display order for the safety filter chips and default sort. Higher = safer.
+// Limited Evidence sits at the bottom regardless of internal score because
+// it's a non-judgmental "we don't know enough" tier — it shouldn't compete
+// with scored beers for top placement.
+export const TIER_ORDER = [
+  "consistently-safe",
+  "likely-safe",
+  "inconsistent",
+  "limited",
+  "often-above",
+  "above",
+];
+
+const TIER_RANK = {
+  "consistently-safe": 5,
+  "likely-safe":       4,
+  "inconsistent":      3,
+  "often-above":       2,
+  "above":             1,
+  "limited":          -1, // always last in score-descending sort
+};
+
+// Comparator that puts safer beers first, breaking ties by raw score.
+// Use Array.prototype.sort(compareBeersByTier) on a beer[] to get the
+// default home-page ordering.
+export function compareBeersByTier(a, b, today = new Date()) {
+  const ta = tierFor(a, today);
+  const tb = tierFor(b, today);
+  const ra = TIER_RANK[ta.key] ?? 0;
+  const rb = TIER_RANK[tb.key] ?? 0;
+  if (ra !== rb) return rb - ra;
+  // Within a tier, higher score first. Limited has score: null → fall back
+  // to the underlying eval score so single-source beers still order amongst
+  // themselves predictably.
+  const sa = ta.score ?? evaluateBeer(a, today)?.score ?? -1;
+  const sb = tb.score ?? evaluateBeer(b, today)?.score ?? -1;
+  if (sa !== sb) return sb - sa;
+  return (a.name || "").localeCompare(b.name || "");
+}
+
 export function sourceOfLink(link) {
   if (!link) return null;
   const h = link.toLowerCase();
