@@ -48,3 +48,6 @@ __pycache__/
 
 # Claude Code local state
 .claude/
+
+# Local backups (git history is the canonical recovery path)
+data/beer_data.backup-*.json

@@ -29,6 +29,22 @@
         "testDate": "2014-03-15",
         "testLink": "https://www.lowgluten.org/becks-gluten-test/",
         "testNotes": "No visible pink spot in test area. Pink control spot confirmed proper test execution. German brewed."
+      },
+      {
+        "id": "01174dd8-993c-4ee0-8adb-26e3d8aa95f1",
+        "testType": "EZ Gluten",
+        "testResult": "Mixed",
+        "testDate": "",
+        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testNotes": "Result unclear from available data. Listed as borderline in summary chart. Confirmed negative by lowgluten.org on both kits."
+      },
+      {
+        "id": "286c6ad9-79ba-4a76-87e5-62b26a8865e7",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm. Not detected."
       }
     ],
     "breweryId": "cf2cfeb0-4e29-4103-89b7-1e0383f56f97"
@@ -127,6 +143,14 @@
         "testDate": "2017-02-08",
         "testLink": "https://www.lowgluten.org/asahi-dry-zero/",
         "testNotes": "Two separate tests conducted. No barley or wheat in ingredient list. Both tests showed negative results."
+      },
+      {
+        "id": "bb85daa5-8d6b-4d3b-93e5-a5badc5e5e99",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "1f49e949-9187-4b57-ab26-cd925a3e07ce"
@@ -134,7 +158,7 @@
   {
     "id": "4ea759ad-a4f9-475d-8e16-689e1387e54a",
     "name": "Augustiner Edelstoff",
-    "brewery": "Augustiner Br\u00e4u",
+    "brewery": "Augustiner Bräu",
     "style": "Lager",
     "gfConfidenceScore": 4,
     "testResults": [
@@ -152,7 +176,7 @@
   {
     "id": "68527b68-a86c-4f5f-889c-2bcce307dbf2",
     "name": "Augustiner Helles",
-    "brewery": "Augustiner Br\u00e4u",
+    "brewery": "Augustiner Bräu",
     "style": "Lager",
     "gfConfidenceScore": 4,
     "testResults": [
@@ -181,6 +205,14 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Consumed with no ill effects. 7.5% ABV."
+      },
+      {
+        "id": "1eae167a-e07f-46e7-8e05-82dcb1b98bd9",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
       }
     ],
     "breweryId": "6c6d87ce-20b3-44ff-a524-51a458ef54a1"
@@ -253,6 +285,14 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Consumed with no ill effects. 5.2% ABV."
+      },
+      {
+        "id": "b94d52b1-9569-48c9-ade6-fec5c4ad7652",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
       }
     ],
     "breweryId": "7194a6f1-c246-4d69-8ea2-f3882fa9b2bf"
@@ -359,6 +399,14 @@
         "testDate": "2014-01-02",
         "testLink": "https://www.lowgluten.org/coors-light-gluten-test/",
         "testNotes": "No indication of more than 5 ppm gluten. Purchased in Germany."
+      },
+      {
+        "id": "1a7f853a-ec3f-4a9c-814a-986979723a5a",
+        "testType": "EZ Gluten",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testNotes": "Confirmed negative. Later contradicted by CookingAlDante (2022)."
       }
     ],
     "breweryId": "50e34797-0489-447d-8fd9-f3eda738b048"
@@ -393,6 +441,30 @@
         "testDate": "2013-09-06",
         "testLink": "https://www.lowgluten.org/corona-test/",
         "testNotes": "Absolutely nothing visible in test area. Control spot appeared pink. No detectable gluten at very low detection limit."
+      },
+      {
+        "id": "43f2f9f1-8510-4e15-9e70-f12acafaed78",
+        "testType": "EZ Gluten",
+        "testResult": "Mixed",
+        "testDate": "2022-01-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
+        "testNotes": "January 2022 test negative; later 2022 retests showed positive. Inconsistent results across multiple tests."
+      },
+      {
+        "id": "d5784d6f-d3e2-4b1c-8abe-dfee2f021901",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm. Not detected."
+      },
+      {
+        "id": "2b67e944-4cd7-4916-9750-a6d46da6cea5",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 4.6%"
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -411,6 +483,14 @@
         "testDate": "2014-12-01",
         "testLink": "https://www.lowgluten.org/dorada-gluten-test/",
         "testNotes": "No indication of gluten presence. Control spot confirmed proper test execution. Spanish beer from Canary Islands."
+      },
+      {
+        "id": "e039492b-bc2a-4ec0-adeb-b46642bff230",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "e4b788cd-43ca-4b57-8fd8-b7f2b06ca9df"
@@ -429,6 +509,14 @@
         "testDate": "2018-12-16",
         "testLink": "https://www.lowgluten.org/erzquell-pils-gluten-test/",
         "testNotes": "No visible pink spot in test area. Control spot confirmed proper test execution."
+      },
+      {
+        "id": "17b4b3fc-cd09-40e4-b23e-1fa0d9dea264",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "7be33126-565d-47db-8021-c2f46dd057fe"
@@ -509,6 +597,22 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Consumed with no ill effects. 4.3% ABV."
+      },
+      {
+        "id": "627bbe5a-ca4a-42a1-b720-5396c967b227",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 3-4ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 3-4ppm. Positive per site."
+      },
+      {
+        "id": "75c465f5-4974-439c-9bf8-f660865cc174",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 48ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "48mg/L. ABV 3.5%"
       }
     ],
     "breweryId": "0c2f67a0-8f10-4466-ab1b-6fee1b878c8e"
@@ -527,6 +631,14 @@
         "testDate": "2019-05-26",
         "testLink": "https://www.lowgluten.org/herforder-pils-gluten-test/",
         "testNotes": "No visible pink spot in test area. Control pink spot confirmed proper test execution. German beer."
+      },
+      {
+        "id": "aefa31c2-c8d9-477e-9de9-05aa7a1a3daa",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "8b07361a-d8d1-4cd8-a28f-121cf5a6175b"
@@ -563,6 +675,14 @@
         "testDate": "2020-01-03",
         "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "No pink test spot visible. Malty with nice bitterness, though watery. Finnish beer."
+      },
+      {
+        "id": "4b1b0ad6-1c8d-475f-8979-1ea0dd8d0c3b",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "8e052b22-72d7-4e8c-b310-9b775b1c837c"
@@ -599,6 +719,14 @@
         "testDate": "2017-07-15",
         "testLink": "https://www.lowgluten.org/kirin-hard-cidre-gluten-test/",
         "testNotes": "No visible pink spot in test area. Contains apple juice, no gluten-containing ingredients. Japanese cider."
+      },
+      {
+        "id": "46e837c1-6785-4232-a64b-499466e8a2f7",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -617,6 +745,14 @@
         "testDate": "2017-05-20",
         "testLink": "https://www.lowgluten.org/kirin-nodogoshi-nama/",
         "testNotes": "No indication of gluten presence. Contains no malt or barley, only hops, sugar, soybean protein, yeast extract."
+      },
+      {
+        "id": "cd0be8db-7d71-4fe7-bfea-2b242c874ba3",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -689,6 +825,22 @@
         "testDate": "2020-01-03",
         "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "No pink test spot visible. Rather sweet and watery. Most popular beer in Finland."
+      },
+      {
+        "id": "da19b791-65e8-4d86-b50b-398af7688147",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
+      },
+      {
+        "id": "a158796f-4cd7-478f-905d-8cefca80b851",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 3.5%"
       }
     ],
     "breweryId": "4fd30f33-202d-437d-b6d7-4f46decfe9eb"
@@ -751,6 +903,22 @@
         "testDate": "2014-01-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/01/modelo-especial.html",
         "testNotes": "Less than 20ppm. Consumer drank entire 24 oz can within one hour with no adverse reaction."
+      },
+      {
+        "id": "cbc47d74-10f8-443a-bf85-8c304ba996b8",
+        "testType": "EZ Gluten",
+        "testResult": "Mixed",
+        "testDate": "2022-01-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
+        "testNotes": "January 2022 negative; October 2022 retest positive. Inconsistent results."
+      },
+      {
+        "id": "082dd5f3-7a75-4180-8283-d5e473b9755b",
+        "testType": "EZ Gluten",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testNotes": "Confirmed negative. Later partially contradicted by CookingAlDante."
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -769,6 +937,14 @@
         "testDate": "2017-08-12",
         "testLink": "https://www.lowgluten.org/mythos-gluten-test/",
         "testNotes": "No visible pink test spot. Greek lager with 5.0% ABV."
+      },
+      {
+        "id": "7c60ac24-0fa4-4a57-8d31-17c8de72040e",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "7db61a41-9463-4ad9-8ef0-9bfef5608e65"
@@ -895,6 +1071,14 @@
         "testDate": "2018-03-14",
         "testLink": "https://www.lowgluten.org/radeberger-gluten-test/",
         "testNotes": "No detectable gluten. Control spot appeared pink. German beer."
+      },
+      {
+        "id": "fbd77032-c730-42b5-9e5c-9edaa335620b",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "a437e1ca-e4db-452c-b649-3715f2c301bf"
@@ -931,6 +1115,14 @@
         "testDate": "2019-07-27",
         "testLink": "https://www.lowgluten.org/rothaus-pils-gluten-test/",
         "testNotes": "No pink spot in test area. Control pink spot confirmed proper execution. Black Forest region beer."
+      },
+      {
+        "id": "c268d361-fe49-45ef-a99f-24e52c845cc6",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "ff2004e6-5712-424f-94a3-f32b8c814964"
@@ -957,6 +1149,14 @@
         "testDate": "2018-11-24",
         "testLink": "https://www.lowgluten.org/samuel-adams-boston-lager-gluten-test/",
         "testNotes": "No pink spot in test area. Control pink spot confirmed proper test. American beer."
+      },
+      {
+        "id": "53608641-8ef0-476e-bf2f-94d781b84d4b",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "08acc8ad-44c1-4549-9846-91f80cfb06b0"
@@ -993,6 +1193,14 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Consumed with no ill effects. 6.8% ABV."
+      },
+      {
+        "id": "e525f44d-e841-49aa-bd76-aa77ceb08533",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
       }
     ],
     "breweryId": "73b56e7c-0e44-4fbe-ba41-318c150a8f47"
@@ -1011,6 +1219,14 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Consumed with no ill effects. 4.5% ABV."
+      },
+      {
+        "id": "258c87ff-0892-46f3-bd92-e749de8c307b",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
       }
     ],
     "breweryId": "9fca7441-a081-47ba-b06f-d2199fae4d41"
@@ -1029,6 +1245,14 @@
         "testDate": "2018-08-24",
         "testLink": "https://www.lowgluten.org/snow-gluten-test/",
         "testNotes": "Control spot present, no test spot. Light American lager style with low alcohol. Contains corn. Chinese beer."
+      },
+      {
+        "id": "15895ac8-d78a-412f-9fb7-42608e60137b",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "e77f1082-18c8-418b-a612-e7ee90124df7"
@@ -1071,6 +1295,22 @@
         "testDate": "2014-04-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/04/stella-artois.html",
         "testNotes": "More than 20ppm. Consumer drank bottle in 30 minutes with no effects. Readers report varying experiences."
+      },
+      {
+        "id": "1c123798-adfc-490d-8e99-e0552e722c44",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
+      },
+      {
+        "id": "73683d87-054d-4b35-84bb-8ddc6a57c105",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Not consumed by tester. Contradicted by CookingAlDante (positive 2022)."
       }
     ],
     "breweryId": "cf2cfeb0-4e29-4103-89b7-1e0383f56f97"
@@ -1097,6 +1337,14 @@
         "testDate": "2014-01-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/01/stone-ipa.html",
         "testNotes": "Well over 20ppm despite some accounts suggesting low gluten. Consumer drank two 12 oz bottles over three hours without reaction. Stone later introduced 'Stripped Away IPA' as low-gluten alternative (less than 5ppm)."
+      },
+      {
+        "id": "44014642-059c-4c57-b1d3-ab71d52ee8e2",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
       }
     ],
     "breweryId": "c6829910-a490-433c-806b-2a855107c524"
@@ -1151,6 +1399,14 @@
         "testDate": "2019-06-26",
         "testLink": "https://www.lowgluten.org/timisoreana-gluten-test/",
         "testNotes": "No pink spot in test area. Contains corn. Romanian beer, oldest brewery in Romania."
+      },
+      {
+        "id": "ab31455a-dd02-4edc-8b60-cba4d953226c",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "ef43b42d-4e62-4b23-b9d7-0522dac70505"
@@ -1211,9 +1467,9 @@
   },
   {
     "id": "a8ee850b-9726-46d7-877a-eee6710c65cf",
-    "name": "Zillertaler M\u00e4rzen",
+    "name": "Zillertaler Märzen",
     "brewery": "Zillertal Bier",
-    "style": "M\u00e4rzen",
+    "style": "Märzen",
     "gfConfidenceScore": 4,
     "testResults": [
       {
@@ -1230,7 +1486,7 @@
   {
     "id": "e0a098fe-5da9-4998-ad32-0b62984aa8f5",
     "name": "Atlas Premium",
-    "brewery": "Cervecer\u00eda Nacional",
+    "brewery": "Cervecería Nacional",
     "style": "Premium Lager",
     "gfConfidenceScore": 3,
     "testResults": [
@@ -1248,7 +1504,7 @@
   {
     "id": "8022bb5a-7039-41a3-a66f-2da8cecc161e",
     "name": "Balboa Ice",
-    "brewery": "Cervecer\u00eda Nacional",
+    "brewery": "Cervecería Nacional",
     "style": "Ice Lager",
     "gfConfidenceScore": 3,
     "testResults": [
@@ -1266,7 +1522,7 @@
   {
     "id": "3d8ace3e-ed22-440e-9f06-9b8ca123fc6d",
     "name": "Balboa Premium Classic Lager",
-    "brewery": "Cervecer\u00eda Nacional",
+    "brewery": "Cervecería Nacional",
     "style": "Lager",
     "gfConfidenceScore": 3,
     "testResults": [
@@ -1302,7 +1558,7 @@
   {
     "id": "c39e4ebd-4887-43f5-b7ed-43c5ffd668d4",
     "name": "Bohemia Pilsner",
-    "brewery": "Cervecer\u00eda Cuauht\u00e9moc Moctezuma",
+    "brewery": "Cervecería Cuauhtémoc Moctezuma",
     "style": "Pilsner",
     "gfConfidenceScore": 3,
     "testResults": [
@@ -1383,6 +1639,38 @@
         "testDate": "2013-09-29",
         "testLink": "https://www.lowgluten.org/carlsberg-gluten-test/",
         "testNotes": "Both 20 ppm and 5 ppm threshold tests were negative. German-brewed bottle."
+      },
+      {
+        "id": "18fbfb56-13da-4cbd-8f22-c4740d96d20d",
+        "testType": "EZ Gluten",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testNotes": "Confirmed negative per blog summary chart. Contradicted by NFA 2009 (15-21ppm) and CookingAlDante (positive)."
+      },
+      {
+        "id": "e2f11585-f27e-40a2-a218-af5cda50e1b5",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold negative. Test 1 of 2."
+      },
+      {
+        "id": "764b21af-229c-43c3-92fa-4cc1c00e7d5b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 15ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "15mg/L. ABV 2.8%"
+      },
+      {
+        "id": "edd41a99-91ba-4e33-98ec-904de7599105",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 21ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "21mg/L. ABV 3.5%"
       }
     ],
     "breweryId": "43932207-ea88-4019-8fc8-6373e6ca5583"
@@ -1390,7 +1678,7 @@
   {
     "id": "c2795051-1e39-465f-9bac-563b1d5b04b5",
     "name": "Carta Blanca",
-    "brewery": "Cervecer\u00eda Cuauht\u00e9moc Moctezuma",
+    "brewery": "Cervecería Cuauhtémoc Moctezuma",
     "style": "Lager",
     "gfConfidenceScore": 3,
     "testResults": [
@@ -1473,6 +1761,14 @@
         "testDate": "2022-06-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
         "testNotes": "June 2022 test was negative, October 2022 retest was positive. Inconsistent/discordant results noted as (-/+/+/+)"
+      },
+      {
+        "id": "437b9081-2776-4591-a8f3-61521b998873",
+        "testType": "EZ Gluten",
+        "testResult": "Mixed",
+        "testDate": "2022-06-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
+        "testNotes": "June 2022 negative; October 2022 retest positive. Discordant results noted as (-/+/+/+)"
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -1553,6 +1849,14 @@
         "testDate": "2018-04-04",
         "testLink": "https://www.lowgluten.org/grolsch-gluten-test/",
         "testNotes": "Blue control line appeared. No red test line. Dutch beer brewed in Netherlands."
+      },
+      {
+        "id": "ae4448bc-1501-48d2-aff4-94c3fe965f40",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 15ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "15mg/L. ABV 3.5%. Above 10ppm threshold."
       }
     ],
     "breweryId": "d508030a-3321-4127-a712-f9dd4d8b4344"
@@ -1767,6 +2071,14 @@
         "testDate": "2014-03-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/03/tsingtao.html",
         "testNotes": "Less than 20ppm. Consumer drank entire 12 oz bottle in 30 minutes with no gluten-related effects. Meets FDA gluten-free standards."
+      },
+      {
+        "id": "dc5f08c5-92cb-4886-819a-ae42a047844c",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 6ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 6ppm. Positive per site."
       }
     ],
     "breweryId": "4c95fa0a-49c8-4866-91d3-2b09ef1a8dbf"
@@ -1819,6 +2131,14 @@
         "testDate": "2015-03-01",
         "testLink": "http://gluteninbeer.blogspot.com/2015/03/asahi-super-dry.html",
         "testNotes": "Very dark color for a lager, bland taste. Consumer reported no symptoms after drinking entire 12 oz bottle in 30 minutes (gluten intolerant, not celiac)."
+      },
+      {
+        "id": "93379496-915e-41ad-a582-09bc753d6551",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 1ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated ~1ppm. Classified positive by site."
       }
     ],
     "breweryId": "1f49e949-9187-4b57-ab26-cd925a3e07ce"
@@ -1845,6 +2165,14 @@
         "testDate": "2015-02-23",
         "testLink": "https://www.lowgluten.org/brooklyn-lager-gluten-test/",
         "testNotes": "No visible pink spot in test area. Manufacturer claims less than 5 ppm of gluten."
+      },
+      {
+        "id": "6c4cd8d9-b7f0-4947-90e1-a15b7b060436",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "3ce9b828-d2a9-412c-ad36-a18af8644010"
@@ -2007,6 +2335,14 @@
         "testDate": "2016-04-30",
         "testLink": "https://www.lowgluten.org/kirin-heartland-gluten-test/",
         "testNotes": "No indication of gluten above 5 ppm. Control line appeared correctly. Malty with good finish."
+      },
+      {
+        "id": "4312eaf3-e70f-492b-a768-92cb62c344c0",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 1ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 1ppm. Positive per site."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -2067,6 +2403,14 @@
         "testDate": "2014-04-09",
         "testLink": "https://www.lowgluten.org/miller-lite-gluten-test/",
         "testNotes": "No indication of gluten presence. Control spot confirmed proper test execution."
+      },
+      {
+        "id": "8604a9d8-7e43-4a0d-ad0d-641e93b4e63d",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "50e34797-0489-447d-8fd9-f3eda738b048"
@@ -2109,6 +2453,14 @@
         "testDate": "2014-01-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/01/pabst-blue-ribbon.html",
         "testNotes": "Less than 20ppm. Consumer drank entire 24 oz can in 45 minutes without reaction. However, commenter reported different batch (exp Mar 2015) tested Very High Positive at 10ppm, suggesting batch variability."
+      },
+      {
+        "id": "92bd5205-8707-463c-bae0-1c1b09a4adec",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 1-2ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 1-2ppm. Positive per site."
       }
     ],
     "breweryId": "23a965f2-41b2-48fa-b685-96f6f829ce6b"
@@ -2296,7 +2648,7 @@
   {
     "id": "15f54641-8ef9-45f2-b309-627682d575d3",
     "name": "Cerveza Soberana",
-    "brewery": "Cervecer\u00eda Nacional",
+    "brewery": "Cervecería Nacional",
     "style": "Lager",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -2523,6 +2875,14 @@
         "testDate": "2013-12-28",
         "testLink": "https://www.lowgluten.org/guinness-gluten-test/",
         "testNotes": "Clearly visible pink test spot, lighter than control. Approximately 20-30 ppm. Intensity 3-4 on scale."
+      },
+      {
+        "id": "ed102c74-d064-477d-8adf-6e6490fd3c28",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 62ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "62mg/L. ABV 5.0%"
       }
     ],
     "breweryId": "0c2f67a0-8f10-4466-ab1b-6fee1b878c8e"
@@ -2541,6 +2901,14 @@
         "testDate": "2014-01-01",
         "testLink": "http://gluteninbeer.blogspot.com/2014/01/heineken-light.html",
         "testNotes": "Well over 20ppm. Disappointing result as most domestic light beers test below 20ppm. Consumer drank three bottles over 3-4 hours without reaction."
+      },
+      {
+        "id": "3b86b56d-cd95-48b8-a75c-17eab0f9e85e",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 45ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "45mg/L. ABV 3.5%"
       }
     ],
     "breweryId": "8a1c717d-037f-48e6-8feb-5c9c0878196d"
@@ -2565,8 +2933,8 @@
   },
   {
     "id": "2fd16b42-e7b9-4a5e-9615-042254a2bd83",
-    "name": "Hofbr\u00e4u Oktoberfest",
-    "brewery": "Hofbr\u00e4u Munich",
+    "name": "Hofbräu Oktoberfest",
+    "brewery": "Hofbräu Munich",
     "style": "Oktoberfest",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -2577,14 +2945,22 @@
         "testDate": "2013-10-17",
         "testLink": "https://www.lowgluten.org/hofbrau-oktoberfestbier-gluten-test/",
         "testNotes": "Clearly visible red line on test stick, though weak. Owned by Bavarian state government."
+      },
+      {
+        "id": "eeaf63fa-3d0a-4f92-a6c5-2aec4ace4bf0",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 26ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "26mg/L. ABV 6.3%"
       }
     ],
     "breweryId": "2d173227-dbe7-4b08-87ee-f313519454bf"
   },
   {
     "id": "a9012142-dd0b-4615-8298-fff2c0692119",
-    "name": "Hofbr\u00e4u Sommerzwickl",
-    "brewery": "Hofbr\u00e4u Munich",
+    "name": "Hofbräu Sommerzwickl",
+    "brewery": "Hofbräu Munich",
     "style": "Zwickelbier",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -2595,6 +2971,14 @@
         "testDate": "2017-10-15",
         "testLink": "https://www.lowgluten.org/hofbrau-sommerzwickl-gluten-test/",
         "testNotes": "Visible pink test spot, quite faint. Intensity 1-2 on scale, below 20 ppm. Unfiltered, naturally cloudy seasonal beer."
+      },
+      {
+        "id": "a5716691-4fca-4b86-bcd3-8da2f52ba46b",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 1-2ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 1-2ppm. Positive per site."
       }
     ],
     "breweryId": "2d173227-dbe7-4b08-87ee-f313519454bf"
@@ -2685,6 +3069,14 @@
         "testDate": "2017-04-29",
         "testLink": "https://www.lowgluten.org/kirin-ichiban-shibori/",
         "testNotes": "Clearly visible pink spot on test area. Relatively high gluten content compared to other Japanese lagers."
+      },
+      {
+        "id": "c90d3808-2083-4216-bbaf-8ad6044b11d4",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 3-4ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 3-4ppm. Positive per site."
       }
     ],
     "breweryId": "f833b117-68c9-4da6-89de-39c730cdb168"
@@ -2727,8 +3119,8 @@
   },
   {
     "id": "524f3cf7-54e0-49d6-a2cc-f933a4cdd67b",
-    "name": "L\u00f6wenbr\u00e4u Oktoberfest",
-    "brewery": "L\u00f6wenbr\u00e4u",
+    "name": "Löwenbräu Oktoberfest",
+    "brewery": "Löwenbräu",
     "style": "Oktoberfest",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -2739,14 +3131,22 @@
         "testDate": "2013-10-11",
         "testLink": "https://www.lowgluten.org/lowenbrau-oktoberfestbier-gluten-test/",
         "testNotes": "Clearly visible red line on test stick. Not bright but clearly discernible. Only available during Oktoberfest season."
+      },
+      {
+        "id": "3d878aa2-199d-4f96-b765-2fc06340ca72",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 21ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "21mg/L. ABV 6.1%"
       }
     ],
     "breweryId": "3ffe144b-dc3c-4b62-a8ed-64aa2a9282e0"
   },
   {
     "id": "7836c3b3-3dde-42bf-b235-423036d80796",
-    "name": "L\u00f6wenbr\u00e4u Original",
-    "brewery": "L\u00f6wenbr\u00e4u",
+    "name": "Löwenbräu Original",
+    "brewery": "Löwenbräu",
     "style": "Lager",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -2809,6 +3209,14 @@
         "testDate": "2014-06-18",
         "testLink": "https://www.lowgluten.org/michelob-ultra-gluten-test/",
         "testNotes": "Barely visible pink spot, very faint. Estimated below 20 ppm. Intensity rating 1 out of 20."
+      },
+      {
+        "id": "c4543b99-d550-45dd-8cf5-f1e49f74e9c0",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 1ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 1ppm. Positive per site."
       }
     ],
     "breweryId": "cf2cfeb0-4e29-4103-89b7-1e0383f56f97"
@@ -2827,6 +3235,14 @@
         "testDate": "2022-06-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
         "testNotes": "June 2022 test was positive, September 2022 retest was negative. Inconsistent results"
+      },
+      {
+        "id": "aa36d6d5-0769-4e8e-a1e0-33dd871c6bd3",
+        "testType": "EZ Gluten",
+        "testResult": "Mixed",
+        "testDate": "2022-06-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
+        "testNotes": "June 2022 positive; September 2022 retest negative. Inconsistent results."
       }
     ],
     "breweryId": "2d211dfe-7079-4720-be05-26f121eee60a"
@@ -2863,6 +3279,14 @@
         "testDate": "2022-08-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
         "testNotes": "Single test, positive result"
+      },
+      {
+        "id": "88d67b9b-cb78-4d00-82e7-ac3fc4234261",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Contradicted by CookingAlDante (positive 2022)."
       }
     ],
     "breweryId": "c8b938d2-bea0-41ce-b903-15c9f4394a97"
@@ -2960,7 +3384,7 @@
   {
     "id": "8404245e-dca9-4d29-881b-07d093983ada",
     "name": "Panama Lager",
-    "brewery": "Cervecer\u00eda Nacional",
+    "brewery": "Cervecería Nacional",
     "style": "Lager",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -3007,6 +3431,14 @@
         "testDate": "2020-05-10",
         "testLink": "https://www.lowgluten.org/perlenbacher-pils-gluten-test/",
         "testNotes": "Very faint but visible pink test spot. Intensity 3 on scale. Much below 20 ppm. German pilsner."
+      },
+      {
+        "id": "c23cb289-63ee-44ce-a6d8-67abe1555434",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 3ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 3ppm. Positive per site."
       }
     ],
     "breweryId": "735b67fa-1b45-453f-9c66-0a8784b7d3cd"
@@ -3043,6 +3475,14 @@
         "testDate": "2018-01-02",
         "testLink": "https://www.lowgluten.org/petoskey-sparkle-gluten-test/",
         "testNotes": "Clearly visible pink test spot. Intensity 4 out of 20. Contains wheat. Michigan brewed."
+      },
+      {
+        "id": "20beb4f0-338e-41a2-b3c6-5ac2d50bcc15",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 4ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 4ppm. Positive per site."
       }
     ],
     "breweryId": "0ee29bff-347c-4498-85fa-03b8bdf8a92f"
@@ -3079,6 +3519,14 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Not Consumed. 4.4% ABV."
+      },
+      {
+        "id": "6c67eda3-cdbc-484e-9a14-ea4c484e0dc0",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
       }
     ],
     "breweryId": "1f49e949-9187-4b57-ab26-cd925a3e07ce"
@@ -3151,6 +3599,14 @@
         "testDate": "2017-06-25",
         "testLink": "https://www.lowgluten.org/sapporo-black-label-gluten-test/",
         "testNotes": "Not-so-faint pink spot. Relatively high gluten content compared to other Japanese lagers. Contains rice and corn."
+      },
+      {
+        "id": "5df58531-6707-481a-8edd-2c8bee538db4",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 2-3ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 2-3ppm. Positive per site."
       }
     ],
     "breweryId": "c0dac71f-2918-45ce-ba7b-1e7df74d97ac"
@@ -3212,7 +3668,7 @@
   {
     "id": "d15bbbfe-634f-4be8-aade-7be61a6dadac",
     "name": "Spaten Oktoberfestbier",
-    "brewery": "Spaten-Franziskaner-Br\u00e4u",
+    "brewery": "Spaten-Franziskaner-Bräu",
     "style": "Oktoberfest",
     "gfConfidenceScore": 1,
     "testResults": [
@@ -3223,13 +3679,21 @@
         "testDate": "2019-04-20",
         "testLink": "https://www.lowgluten.org/spaten-oktoberfestbier-gluten-test/",
         "testNotes": "Clearly visible pink spot. Intensity 3 out of 20. Difficult to estimate exact ppm. German Oktoberfest beer."
+      },
+      {
+        "id": "35d03796-d95c-4090-9262-0d484cfef5c7",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 3ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 3ppm. Positive per site."
       }
     ],
     "breweryId": "28a17437-5cb2-4f70-98ad-321d13fa3351"
   },
   {
     "id": "711e4ed9-bf38-48d4-80b9-af6eb44aba7e",
-    "name": "Stiegl Goldbr\u00e4u",
+    "name": "Stiegl Goldbräu",
     "brewery": "Stieglbrauerei Salzburg",
     "style": "Lager",
     "gfConfidenceScore": 1,
@@ -3313,6 +3777,14 @@
         "testDate": "2020-04-01",
         "testLink": "https://www.lowgluten.org/tuborg-pilsener-gluten-test/",
         "testNotes": "Very faint pink spot detected. Intensity 2 on scale. Much below 20 ppm. German variant."
+      },
+      {
+        "id": "9d7e6bf7-34a9-4a8c-a259-537742980abc",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 2ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 2ppm. Positive per site."
       }
     ],
     "breweryId": "43932207-ea88-4019-8fc8-6373e6ca5583"
@@ -3370,5 +3842,1421 @@
       }
     ],
     "breweryId": "e6a65cbf-f771-4131-a73f-d199a7d5915c"
+  },
+  {
+    "id": "4e1b1527-11a8-43f8-a809-084aac4ff967",
+    "name": "Amstel",
+    "brewery": "Heineken",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "b8b40cc2-c37e-40d3-8d50-ad38425dc73f",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm. Not detected."
+      }
+    ]
+  },
+  {
+    "id": "64e20ce2-0f5a-4474-a048-dbab8b9d9dbf",
+    "name": "Bavaria",
+    "brewery": "Bavaria",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "85d45ea2-cf69-450e-9f39-60a0ba5d6168",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 5ppm. Negative by EU 20ppm standard."
+      }
+    ]
+  },
+  {
+    "id": "9b608df8-0e10-4a34-922f-c310c357d569",
+    "name": "Bintang",
+    "brewery": "Bintang",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a09eb3cf-5856-42f6-9e4f-23cf581e7bba",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Positive at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold positive (>20ppm)."
+      }
+    ]
+  },
+  {
+    "id": "a7c9c4b8-1cf8-4849-a994-77798aff6ffb",
+    "name": "Bitburger",
+    "brewery": "Bitburger",
+    "style": "Pilsner",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "4cddb075-8935-41f8-ab33-46cc3065abfc",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "a71d861c-5b8b-4b07-b2bf-39b4d47fcf1b",
+    "name": "Bohemia Pilser",
+    "brewery": "Unknown",
+    "style": "",
+    "gfConfidenceScore": 3,
+    "testResults": [
+      {
+        "id": "da643d31-d1f9-46bf-a3ba-f50a37680185",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "5b31554d-791e-4ebd-9dc7-60c7fbfccf9a",
+    "name": "Estrella Daura",
+    "brewery": "Estrella Damm",
+    "style": "Gluten-Reduced Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "79bffc59-2928-4f14-a417-beac9a164316",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 5-6ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 5-6ppm. Positive per site classification. Labeled gluten-reduced."
+      }
+    ]
+  },
+  {
+    "id": "ec407336-6499-42f4-b97d-622c34e00e1c",
+    "name": "Foster's",
+    "brewery": "Foster's",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "d0fdd300-3149-427d-8004-52008baf7a4f",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "4a8dd296-183c-4855-ab8f-586baf7892f6",
+    "name": "Gambrinus",
+    "brewery": "Gambrinus",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "7eb162a1-cdd8-419f-904e-20e90d421e80",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 8-9ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 8-9ppm. Positive per site."
+      }
+    ]
+  },
+  {
+    "id": "70542b91-2f0b-4a3c-a085-8bafcf86cdc4",
+    "name": "Lobethal Bohemian Pilsner",
+    "brewery": "Lobethal Bierhaus",
+    "style": "Pilsner",
+    "gfConfidenceScore": 3,
+    "testResults": [
+      {
+        "id": "1ebcaee4-19dd-4bd2-9d06-ec38565e5fa5",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "e9671291-0508-432f-b2e4-c1caf12e4c10",
+    "name": "Moosehead",
+    "brewery": "Moosehead",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "5212a63e-dd6a-4637-bda2-78203b83923c",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Positive 4-5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 4-5ppm. Positive per site."
+      }
+    ]
+  },
+  {
+    "id": "ef7fc907-d0e0-46dc-a7d6-f1f219316d02",
+    "name": "San Miguel Light",
+    "brewery": "San Miguel",
+    "style": "Light Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "4acbacbe-066b-48d9-9192-583bdf781c0a",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
+      }
+    ]
+  },
+  {
+    "id": "50ca9c3e-9717-4e92-a743-9cd7d0df3a8a",
+    "name": "Soberana",
+    "brewery": "Unknown",
+    "style": "",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "1c50f2b3-9db9-4f6f-be1c-3189be6a3918",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Positive at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold positive."
+      }
+    ]
+  },
+  {
+    "id": "ef8cb7fb-2a9f-4f58-bd7a-b647129f2da3",
+    "name": "Stockade Duel Hoppy",
+    "brewery": "Stockade",
+    "style": "Hoppy Lager",
+    "gfConfidenceScore": 3,
+    "testResults": [
+      {
+        "id": "6a4c97e4-72b0-4ffc-a525-6490ff355b54",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 20ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 20ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "36022969-50bc-47ea-8b7d-ed331bfa96f6",
+    "name": "Tuborg Christmasbeer",
+    "brewery": "Tuborg",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "f98014c3-4617-46fc-95e9-73fb87de88af",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "dabe87f4-a2de-4d69-bebe-3ea3bc438eb1",
+    "name": "Tyskie",
+    "brewery": "Tyskie",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "2f8c9a52-1b03-4053-890f-b148f1719f77",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "4572c537-ebc0-4fe4-8af2-e42c8934b812",
+    "name": "Warsteiner",
+    "brewery": "Warsteiner",
+    "style": "Pilsner",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "398e9cd1-9df1-405a-bc49-c6d32528e12e",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
+      },
+      {
+        "id": "88430120-bac6-4573-81bd-d8673cc0f53c",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold negative. Both kits negative."
+      }
+    ]
+  },
+  {
+    "id": "0b0dadfc-1faf-4922-bd08-9b259c12cd18",
+    "name": "Weihenstephaner Helles",
+    "brewery": "Weihenstephaner",
+    "style": "Helles",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "f59e9d13-3310-4c6a-9efb-6274e327d380",
+        "testType": "GlutenTox Home Kit",
+        "testResult": "Positive at 5ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "GlutenTox 5ppm threshold positive."
+      }
+    ]
+  },
+  {
+    "id": "9ed72cb0-dd89-401a-a0b4-92c5bf83b959",
+    "name": "Zillertal Märzen",
+    "brewery": "Zillertal",
+    "style": "Märzen",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "fce6d46c-c924-4547-baf4-cd259bbb5246",
+        "testType": "Gluten-in-food kit",
+        "testResult": "Negative at 10ppm",
+        "testDate": "",
+        "testLink": "https://www.lowgluten.org/",
+        "testNotes": "Estimated 0ppm."
+      }
+    ]
+  },
+  {
+    "id": "7dba268b-b815-49e8-809e-e02c52a7c66b",
+    "name": "Åbro Original",
+    "brewery": "AB Åbro Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "752f8518-d2ac-4967-b61c-e4540d2d3f17",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "89246842-fe45-4c07-a6f3-f1e90565b6c5",
+    "name": "18:56",
+    "brewery": "AB Åbro Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "5058a2cf-426b-4d5a-8e51-d921f5fde65e",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "9373f8b2-45ae-474a-9957-f072bcee0371",
+    "name": "Andersson Beer",
+    "brewery": "AB Åbro Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "21090600-87fc-4d7e-839b-c01c558560bf",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 47ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "47mg/L. ABV 5.2%"
+      }
+    ]
+  },
+  {
+    "id": "acb228cb-2595-4984-9135-8b24adc178d0",
+    "name": "Småland",
+    "brewery": "AB Åbro Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "572ae980-89f6-4919-b9a9-d1f8460c2936",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 41ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "41mg/L. ABV 5.2%"
+      }
+    ]
+  },
+  {
+    "id": "34ea4a2d-46aa-49bb-84d9-0f6889e23895",
+    "name": "Zipfer",
+    "brewery": "Brau Union Österreich AG",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "71a4b3cb-baf0-4411-8e72-15b515f016ba",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 23ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "23mg/L. ABV 2.8%"
+      }
+    ]
+  },
+  {
+    "id": "d154f922-51e5-4ff1-acfb-1ba941cf46b0",
+    "name": "Carnegie Porter",
+    "brewery": "Carlsberg",
+    "style": "Porter",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "cde37982-450e-4098-82c7-91ed45c82872",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 20ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "20mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "a71421e2-a5bb-4079-9ef0-b18c29b1d358",
+    "name": "Saxon Gluten (GF variant)",
+    "brewery": "Carlsberg",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "899ccf69-8182-4adf-87ea-f3f6a8ad9a84",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 4.1%. Likely a labeled GF product; Swedish translation artifact."
+      }
+    ]
+  },
+  {
+    "id": "74ab8471-40d7-49bf-9dae-33c8f19a4656",
+    "name": "Sol",
+    "brewery": "Cerveceria Cuauhtemoc Moctezuma",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "3f8a931c-1c34-4a53-aab1-ba23df1261d7",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 4.5%"
+      }
+    ]
+  },
+  {
+    "id": "688d3eda-9879-4784-9b33-5690d34cd181",
+    "name": "Erdinger Weissbier",
+    "brewery": "Erdinger Weissbräu",
+    "style": "Wheat Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "f50aba18-88a8-4a87-a95a-7752b109911b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 1188ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "1188mg/L. ABV 5.3%. Very high."
+      }
+    ]
+  },
+  {
+    "id": "c5a58ef6-237d-4046-8561-e359da9068ec",
+    "name": "Erdinger Weissbier Dunkel",
+    "brewery": "Erdinger Weissbräu",
+    "style": "Dark Wheat Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "c6acc200-a4e5-47eb-9d80-2073d5fe0f0f",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 1224ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "1224mg/L. ABV 5.6%. Very high."
+      }
+    ]
+  },
+  {
+    "id": "18f239e1-d081-4b5b-9902-e4dc1d50f6f4",
+    "name": "Eriksberg Christmas Beer",
+    "brewery": "Eriksberg",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "81177e1d-31ec-4c28-9b5f-e68c768d7f9f",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 33ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "33mg/L. ABV 5.6%"
+      }
+    ]
+  },
+  {
+    "id": "f6014e1f-995c-4296-8ceb-79919d5ee9cd",
+    "name": "Falcon",
+    "brewery": "Falcon Breweries",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "cd43fa23-6a81-401b-97c7-648009cc94f6",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 28ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "28mg/L. ABV 2.8%"
+      }
+    ]
+  },
+  {
+    "id": "f3b66e08-5863-4793-bbdd-e49f463953a6",
+    "name": "Falcon Ale",
+    "brewery": "Falcon Breweries",
+    "style": "Ale",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "81a0a10b-a7ad-4214-b6cf-6654fca4c848",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 22ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "22mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "a03aa351-a9ea-4bd0-9b8f-f6956c15d6ef",
+    "name": "Falcon Extra Brew",
+    "brewery": "Falcon Breweries",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "f611c1de-979e-4fe3-a25b-608249552a3d",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 24ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "24mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "36e3de78-9f84-46f4-8ba6-a6200d77b160",
+    "name": "Falcon Pilz",
+    "brewery": "Falcon Breweries",
+    "style": "Pilsner",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "e38b87d1-77ce-4e1a-be97-a5a93e00f204",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 67ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "67mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "1ad99bb2-fce0-4175-a375-17ea2233a1f8",
+    "name": "Bavarian Falcon",
+    "brewery": "Falcon Breweries",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "5f0cb6e1-0c07-4ba5-87d8-2670fef9f159",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 55ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "55mg/L. ABV 5.2%"
+      }
+    ]
+  },
+  {
+    "id": "22f02138-37db-4660-a036-2dc927087d99",
+    "name": "Falken Beer July",
+    "brewery": "Falken Falkenberg",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "96be9fa3-4705-44c7-94a7-c68dca979bdc",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 49ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "49mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "5f933833-0541-40cf-9823-8f591ca73b94",
+    "name": "The Cheerful Dane",
+    "brewery": "Harboes Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "72ec106f-2167-4749-b207-b8dd74d4eb4b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 25ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "25mg/L. ABV 2.2%"
+      }
+    ]
+  },
+  {
+    "id": "7eb14d50-f341-4cc9-ad79-915356f07185",
+    "name": "Dansk Pilsner Premium",
+    "brewery": "Harboes Brewery",
+    "style": "Pilsner",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a5d5611e-6893-4fc1-bcb8-d2ec270ce3de",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 42ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "42mg/L. ABV 2.8%"
+      },
+      {
+        "id": "4939ea4f-4760-4e2d-9cb0-051abeca7b29",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 34ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "34mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "a27ae41f-4a07-4a23-b439-cbc8893926ab",
+    "name": "Harboes Christmas Beer",
+    "brewery": "Harboes Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "6873ad30-cc48-4214-83f2-68d8c6f02335",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 31ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "31mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "29f5258e-c09e-4f19-a9aa-eecb1095350c",
+    "name": "Bjørne Brewer",
+    "brewery": "Harboes Brewery",
+    "style": "Strong Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a6c93049-686d-4e5f-bb07-bcda27fe2c6b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 49ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "49mg/L. ABV 7.3%"
+      }
+    ]
+  },
+  {
+    "id": "3a1a7859-6877-46f5-a433-4e51c56bfe7d",
+    "name": "Murphys Irish Stout",
+    "brewery": "Inbev UK",
+    "style": "Stout",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "b6f1dbce-58f4-481d-b59a-b2c1a446c25d",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 43ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "43mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "c9f9c33c-d4ad-4756-93a7-a297e940f661",
+    "name": "Jämtland Christmas Beer",
+    "brewery": "Jämtland Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "519a76c3-997f-4470-b282-aa5b979bbfda",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep (not detected) = <10mg/L. ABV 6.5%"
+      }
+    ]
+  },
+  {
+    "id": "d3c69ce5-4e3e-4b53-865a-d042776ff156",
+    "name": "Fagerhult Exports III",
+    "brewery": "Kopparberg Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "accbde1a-eead-4344-aa48-bef67bf09bcd",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 93ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "93mg/L. ABV 5.3%"
+      }
+    ]
+  },
+  {
+    "id": "b4a32757-e31b-4f10-865d-0d1b8a080021",
+    "name": "Zlatopramen",
+    "brewery": "Pivovar Nova Paka",
+    "style": "Dark Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "8bcc61b4-6424-47c1-ad3f-bfb2287c7c5e",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 47ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "47mg/L. ABV 4.8%"
+      }
+    ]
+  },
+  {
+    "id": "d8b11003-3d88-4a10-88a8-171f93ab3208",
+    "name": "Kronenbourg 1664",
+    "brewery": "Kronenbourg",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "dfb8f437-399d-4ac7-b5db-a363b8a80994",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 97ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "97mg/L. ABV 5.0%"
+      }
+    ]
+  },
+  {
+    "id": "61e9896d-8ba9-4d88-a00e-68092979c6fa",
+    "name": "Krönleins Christmas Beer",
+    "brewery": "Krönleins Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a5e4d498-2a8e-4583-a619-e55fd6276b7b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 33ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "33mg/L. ABV 5.3%"
+      }
+    ]
+  },
+  {
+    "id": "eac30b24-c1e6-4cb0-b690-a7c55b77c869",
+    "name": "Mariestads",
+    "brewery": "Mariestad Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 2,
+    "testResults": [
+      {
+        "id": "f6062991-5bbf-46f6-b63e-d23b8a75f1c0",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 40ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "40mg/L. ABV 2.8%"
+      },
+      {
+        "id": "c19e9dc8-a257-4304-87cf-f93b8df7b574",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "7dd42024-d728-4b7b-8351-79583e0fd736",
+    "name": "Julebrygd",
+    "brewery": "Mariestad Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "c831980d-b7bb-4643-a240-92c3e63546ad",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 60ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "60mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "dc485ab4-45cf-4db1-9bdd-fc019d44dc91",
+    "name": "BrouCzech",
+    "brewery": "Pivovar Nova Paka",
+    "style": "Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "42e4bb47-c385-4d42-bdad-40abe812a514",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 2.8%"
+      }
+    ]
+  },
+  {
+    "id": "2d30a6fb-4249-492f-ac1e-9b277f5139d8",
+    "name": "Staropramen",
+    "brewery": "Pivovary Staropramen",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "ac317cf7-fda8-4642-8d0d-7d9d249ab371",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 21ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "21mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "94c67fde-026b-4fa2-a695-21b751ba2f59",
+    "name": "Pripps Light",
+    "brewery": "Pripps Sweden",
+    "style": "Light Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "28e38b46-a322-499b-b0b9-013135636ae5",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 17ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "17mg/L. ABV 2.2%"
+      }
+    ]
+  },
+  {
+    "id": "8bc6e833-070d-4137-9f0c-7b611d616661",
+    "name": "Pripps Blue Light",
+    "brewery": "Pripps Sweden",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "90cba311-720e-47a4-9a13-30067e19de4a",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 32ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "32mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "fa096647-5f00-4a16-a94a-4fc129313982",
+    "name": "Pripps Blue Pure",
+    "brewery": "Pripps Sweden",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "8cb4092d-67fa-4ae6-892e-910249f7d395",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 28ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "28mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "4b1f9d4d-e9a3-4879-9b78-8e1e9ad8d97c",
+    "name": "Pripps Christmas Beer",
+    "brewery": "Pripps (Carlsberg)",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "1068ffaf-043a-4365-a873-452922090153",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 33ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "33mg/L. ABV 5.0%"
+      }
+    ]
+  },
+  {
+    "id": "1c048676-fc4d-43b3-b837-6ff1a678ae5d",
+    "name": "Pripps Blue",
+    "brewery": "Pripps Sweden",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "e62ee0da-f57a-4663-83f7-0d1dc044cf40",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 66ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "66mg/L. ABV 5.2%"
+      }
+    ]
+  },
+  {
+    "id": "c0177211-9ec2-4f61-8a20-b361a17b3fd3",
+    "name": "Bishops Finger",
+    "brewery": "Shepherd Neame",
+    "style": "Ale",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "353428fa-5be2-4c32-8f0a-aceca5d87e1d",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "e304baf1-201a-490d-97c6-29e7ae71f50c",
+    "name": "Singha Premium",
+    "brewery": "Singha Corp.",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "7db51c2f-16f9-4762-9cc2-a7b1753edead",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 17ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "17mg/L. ABV 5.0%"
+      }
+    ]
+  },
+  {
+    "id": "cba981db-2a15-43f8-8852-a6b2885de8d9",
+    "name": "Source Castle Christmas Beer",
+    "brewery": "Source Castle Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "73eb5f59-9b36-41ec-857b-741589e4aaa5",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 23ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "23mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "ed471c9c-2431-4066-894b-a90155e21036",
+    "name": "White Weissbier",
+    "brewery": "Source Castle Brewery",
+    "style": "Wheat Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "f7a459e1-62b1-48d5-a904-9537f660a330",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 67ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "67mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "22b1d2af-5955-4bb4-9ad2-b0dfbc3d038c",
+    "name": "Vienna",
+    "brewery": "Source Castle Brewery",
+    "style": "Vienna Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "4b0b711e-00cb-4399-91d5-2db2b5b66d10",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "f9b1a57c-dd13-40c1-94f8-1e2208cc68cb",
+    "name": "Imperial Stout",
+    "brewery": "Source Castle Brewery",
+    "style": "Imperial Stout",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "019449df-86fb-405f-b30d-ca19591138c8",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 50ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "50mg/L. ABV 9.0%"
+      }
+    ]
+  },
+  {
+    "id": "b649f238-f367-4de6-b8bb-1e6a02f1d4a6",
+    "name": "Gammeldags Moderate",
+    "brewery": "Spendrups Brewery",
+    "style": "Dark Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "8d50384d-3ae1-446b-9c41-6c04145ae59a",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 2.0%"
+      }
+    ]
+  },
+  {
+    "id": "c6217a26-7d93-435a-a387-025311ce5bf3",
+    "name": "Spendrups Premium",
+    "brewery": "Spendrups Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "c96308c3-0cd6-411e-bf5e-417195281f82",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 31ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "31mg/L. ABV 2.1%"
+      },
+      {
+        "id": "58ca0280-fede-423a-8a37-d0abb4390285",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 53ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "53mg/L. ABV 5.0%"
+      }
+    ]
+  },
+  {
+    "id": "91a55246-4cc7-458f-8ade-91979ffb5654",
+    "name": "Norrland Gold",
+    "brewery": "Spendrups Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "4efa40ec-8215-48a6-a1a0-88d359f2c4ef",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 21ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "21mg/L. ABV 2.8%"
+      },
+      {
+        "id": "338281d2-7255-4cc6-8089-f28639bd9dcd",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 35ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "35mg/L. ABV 3.5%"
+      },
+      {
+        "id": "1ed37120-fef2-4c86-9832-21e299696596",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 38ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "38mg/L. ABV 5.3%"
+      }
+    ]
+  },
+  {
+    "id": "e8075d46-65a6-4e7a-9ed5-c086bd7f3d18",
+    "name": "Spendrups Premium Gold",
+    "brewery": "Spendrups Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 2,
+    "testResults": [
+      {
+        "id": "f4bc2693-7c5b-4cf1-a4d3-d8a973b67a9b",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 3.5%"
+      },
+      {
+        "id": "f130a697-33ea-4543-8f75-1af6e422041f",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 35ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "35mg/L. ABV 5.9%"
+      }
+    ]
+  },
+  {
+    "id": "9f49daf1-97a7-487c-ae3d-88986b09f044",
+    "name": "Spendrup Bright Brew",
+    "brewery": "Spendrups Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "3a4f0dc0-3c91-44b6-b13f-b9ceb1eb2125",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 28ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "28mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "b3eb1fda-5cfe-48f5-9088-cea109691e57",
+    "name": "Odin Pilsner",
+    "brewery": "Spendrups Brewery",
+    "style": "Pilsner",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a85b046e-be90-406b-8301-3cbc6357b8a4",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 46ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "46mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "29f8a2af-6928-4d20-88ac-9dd39adc8a38",
+    "name": "Spendrups Christmas Beer",
+    "brewery": "Spendrups Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "85b501ed-896c-4f89-b43f-061347332c46",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 24ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "24mg/L. ABV 5.2%"
+      }
+    ]
+  },
+  {
+    "id": "9a97e03a-cbe7-4778-8319-84770249d6e2",
+    "name": "Mariestads Exports",
+    "brewery": "Spendrups Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "1895c958-08ea-46aa-843b-e624fcc49869",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 45ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "45mg/L. ABV 5.3%"
+      }
+    ]
+  },
+  {
+    "id": "6c86a6fc-3f0a-4d24-bd21-cec5e0693bec",
+    "name": "Norrland July",
+    "brewery": "Spendrups Brewery",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "ad50a721-41af-4b5b-b2d3-9eb7e64be52a",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 5.3%"
+      }
+    ]
+  },
+  {
+    "id": "3b9b276e-19ae-4a4e-85bc-e991543dbfae",
+    "name": "Julbock",
+    "brewery": "Spendrups Brewery",
+    "style": "Strong Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "70ba83b6-0b4c-40cc-b186-0c246a287fa8",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 34ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "34mg/L. ABV 7.0%"
+      }
+    ]
+  },
+  {
+    "id": "7d90f7cc-3fe1-430c-8220-5e4de4d6e85c",
+    "name": "Starobrno Premium",
+    "brewery": "Starobrno Brewery",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "3ce60a76-79b9-4a2c-be9b-ad750e54fffe",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 21ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "21mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "6ba40b62-02ef-497f-9518-186f7d2fe78d",
+    "name": "St. Petersburg G-Free",
+    "brewery": "St Peters Brewery",
+    "style": "Gluten-Free Lager",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "ab8b0fa2-eb55-412a-b2a9-48fc0be5e3fc",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "ep. ABV 4.2%. Labeled GF; brewed with sorghum."
+      }
+    ]
+  },
+  {
+    "id": "9a089fed-9254-4b93-b04c-78a41098ccf5",
+    "name": "Tuborg Beer Premium Gold",
+    "brewery": "Tuborg",
+    "style": "Lager",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "6f9a8533-2124-448f-803c-e61251b08334",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 28ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "28mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
+    "id": "aa8458a4-2756-4316-8aa6-5f374a2ec094",
+    "name": "Zeunerts Christmas Beer",
+    "brewery": "Zeunerts AB",
+    "style": "Christmas Beer",
+    "gfConfidenceScore": 1,
+    "testResults": [
+      {
+        "id": "a999d12a-96e5-4def-bf72-6c6c3f4d78ff",
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 37ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "37mg/L. ABV 5.1%"
+      }
+    ]
+  },
+  {
+    "id": "47302022-93bf-4b0b-bc12-e02716f2812a",
+    "name": "Dogfish Head 60 Min IPA",
+    "brewery": "Dogfish Head",
+    "style": "IPA",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "ebf1e5ca-7101-44d5-9c25-e57585a3b606",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "c1e7302f-452f-4efa-a70e-e46061149eb2",
+    "name": "North Coast Old Rasputin",
+    "brewery": "North Coast Brewing",
+    "style": "Imperial Stout",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "10e5fed2-dcb8-4fab-987a-360f4e9bcd56",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "c351a78d-8066-4d59-8352-e89ffab3b421",
+    "name": "Sierra Nevada Narwhal",
+    "brewery": "Sierra Nevada",
+    "style": "Imperial Stout",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "dd38c80b-0637-4994-8547-8e5d93bd302b",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "cbfcd46e-2b8d-460c-a971-6829e1e191e5",
+    "name": "Kona Big Wave",
+    "brewery": "Kona Brewing",
+    "style": "Golden Ale",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "2ea4f7ce-7b25-4db8-96ba-024735875bb1",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "518d12a5-e398-4a4a-93b8-0901da42ef5e",
+    "name": "New Belgium VooDoo Ranger Atomic Pumpkin",
+    "brewery": "New Belgium",
+    "style": "Pumpkin Ale",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "a057fe2c-07b7-4b36-a59a-a5fbfa0720ac",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "6ec70b0a-21c4-4f40-ad81-ca8831950938",
+    "name": "Fort George Optimist IPA",
+    "brewery": "Fort George Brewery",
+    "style": "IPA",
+    "gfConfidenceScore": 4,
+    "testResults": [
+      {
+        "id": "73bb72d7-61da-4b6b-973d-cd6a1999d913",
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "Tester consumed without ill effects."
+      }
+    ]
   }
 ]

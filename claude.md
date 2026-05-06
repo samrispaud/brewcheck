@@ -1,6 +1,6 @@
 # BrewCheck Web App
 
-A static web app that helps assess beer gluten safety by matching user queries (text, voice, or menu photo) against a database of 170 beers with verified gluten test results.
+A static web app that helps assess beer gluten safety by matching user queries (text, voice, or menu photo) against a database of 250 beers with verified gluten test results.
 
 ## Project Overview
 
@@ -46,7 +46,7 @@ brewcheck/
 │       ├── menuScanView.js
 │       └── disclaimerView.js
 ├── data/
-│   └── beer_data.json      # 170 beers (canonical copy lives at repo root)
+│   └── beer_data.json      # 250 beers (canonical copy lives at repo root)
 ├── icons/                  # PWA icons (favicon, apple-touch, 192, 512, maskable)
 └── icon-master.png         # 1254×1254 source icon (regenerate other sizes from this)
 ```
@@ -117,7 +117,7 @@ After completing each milestone:
 ### Acceptance Criteria
 
 - [x] Page loads on mobile + desktop
-- [x] Console shows "Loaded 170 beers"
+- [x] Console shows "Loaded 250 beers"
 - [x] Typing "corona" finds Corona Extra
 - [x] Typing "is heineken safe for celiac?" finds Heineken (preprocessor strips question/filler words)
 - [x] Typing "guin" finds Guinness (substring + Levenshtein)
@@ -216,7 +216,7 @@ After completing each milestone:
 
 ## Data
 
-- 187 beers, sourced from GlutenInBeer.blogspot.com, LowGluten.org, CookingAldante.com, SmartGurlSolutions.com
+- 250 beers, sourced from GlutenInBeer.blogspot.com, LowGluten.org, CookingAlDante.com, SmartGurlSolutions.com, and NFA 2009 (Swedish Food Administration via liveatthewitchtrials.blogspot.com)
 - Last updated: December 2025
 - Schema: `{ id, name, brewery, style, gfConfidenceScore (1–5), testResults[] }`
 - Personal use only; not medical advice. Batch variation disclaimer required for `gfConfidenceScore = 2` beers.
