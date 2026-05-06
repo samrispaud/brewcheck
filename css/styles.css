@@ -854,6 +854,13 @@ main {
   color: var(--ink-900);
   margin: 0 0 var(--space-3);
 }
+.sheet__content a {
+  color: var(--navy-700);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+.sheet__content a:hover { color: var(--navy-900); }
 .sheet__content ul {
   margin: 0 0 var(--space-3);
   padding-left: var(--space-5);
