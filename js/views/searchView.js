@@ -1,18 +1,25 @@
-// Search view: input handling + result list rendering.
+// Search view: input handling, voice search, result list rendering.
 
 import { search } from "../data/beerDatabase.js";
 import { safetyFor } from "../services/recommendationEngine.js";
+import { isSupported as voiceSupported, createRecognizer } from "../services/speechRecognizer.js";
 
 const els = {
   input: null,
   clearBtn: null,
+  micBtn: null,
+  voiceStatus: null,
   results: null,
   emptyState: null,
 };
 
+let recognizer = null;
+
 export function initSearchView({ onSelectBeer }) {
   els.input = document.getElementById("search-input");
   els.clearBtn = document.getElementById("clear-btn");
+  els.micBtn = document.getElementById("mic-btn");
+  els.voiceStatus = document.getElementById("voice-status");
   els.results = document.getElementById("results");
   els.emptyState = document.getElementById("empty-state");
 
@@ -37,6 +44,73 @@ export function initSearchView({ onSelectBeer }) {
     e.preventDefault();
     onSelectBeer(row.dataset.beerId);
   });
+
+  initVoiceSearch();
+}
+
+function initVoiceSearch() {
+  if (!voiceSupported()) {
+    // Hide mic button entirely on Firefox / unsupported browsers.
+    els.micBtn.hidden = true;
+    return;
+  }
+
+  els.micBtn.hidden = false;
+
+  recognizer = createRecognizer({
+    onResult: ({ transcript }) => {
+      if (!transcript) return;
+      els.input.value = transcript;
+      handleInput();
+    },
+    onEnd: () => {
+      setMicState("idle");
+    },
+    onError: ({ kind }) => {
+      setMicState("idle");
+      if (kind === "not-allowed" || kind === "service-not-allowed") {
+        showVoiceStatus(
+          "Microphone access denied. Enable it in your browser's site settings to use voice search.",
+          "error"
+        );
+      } else if (kind === "no-speech") {
+        showVoiceStatus("Didn't catch that — try again?", "info");
+      } else if (kind === "audio-capture") {
+        showVoiceStatus("No microphone found.", "error");
+      } else if (kind === "network") {
+        showVoiceStatus("Voice search needs a network connection.", "error");
+      }
+    },
+  });
+
+  els.micBtn.addEventListener("click", () => {
+    if (recognizer.isListening()) {
+      recognizer.stop();
+      return;
+    }
+    clearVoiceStatus();
+    setMicState("listening");
+    recognizer.start();
+  });
+}
+
+function setMicState(state) {
+  els.micBtn.dataset.state = state;
+  els.micBtn.setAttribute(
+    "aria-label",
+    state === "listening" ? "Stop voice search" : "Search by voice"
+  );
+}
+
+function showVoiceStatus(text, tone = "info") {
+  els.voiceStatus.textContent = text;
+  els.voiceStatus.dataset.tone = tone;
+  els.voiceStatus.hidden = false;
+}
+
+function clearVoiceStatus() {
+  els.voiceStatus.hidden = true;
+  els.voiceStatus.textContent = "";
 }
 
 export function focusSearch() {
