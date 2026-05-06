@@ -1,6 +1,6 @@
 beer,producer,style,source,test_type,test_result,testing_source,testing_notes,test_date
-Corona Extra,Corona,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/,Confirmed negative. One of first beers tested on the blog.,
-Coors Light,Coors,Light Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/,Confirmed negative.,
-Modelo Especial,Grupo Modelo,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/,Confirmed negative.,
-Carlsberg,Carlsberg,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/,,
-Heineken,Heineken,Lager,,EZ Gluten,Positive at 10ppm,http://gluteninbeer.blogspot.com/,Described as a surprising positive result on the blog.,
+Corona Extra,Corona,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/2014/01/corona-extra.html,Confirmed negative. One of first beers tested on the blog.,2014-01-01
+Coors Light,Coors,Light Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/2014/02/coors-light.html,Confirmed negative.,2014-02-01
+Modelo Especial,Grupo Modelo,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/2014/01/modelo-especial.html,Confirmed negative.,2014-01-01
+Carlsberg,Carlsberg,Lager,,EZ Gluten,Negative at 10ppm,http://gluteninbeer.blogspot.com/2014/08/carlsberg.html,,2014-08-01
+Heineken,Heineken,Lager,,EZ Gluten,Positive at 10ppm,http://gluteninbeer.blogspot.com/2014/01/heineken.html,Described as a surprising positive result on the blog.,2014-01-01

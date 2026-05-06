@@ -34,8 +34,8 @@
         "id": "286c6ad9-79ba-4a76-87e5-62b26a8865e7",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-03-15",
+        "testLink": "https://www.lowgluten.org/becks-gluten-test/",
         "testNotes": "Estimated 0ppm. Not detected."
       }
     ],
@@ -140,8 +140,8 @@
         "id": "bb85daa5-8d6b-4d3b-93e5-a5badc5e5e99",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-02-08",
+        "testLink": "https://www.lowgluten.org/asahi-dry-zero/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -202,7 +202,7 @@
         "id": "1eae167a-e07f-46e7-8e05-82dcb1b98bd9",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -282,7 +282,7 @@
         "id": "b94d52b1-9569-48c9-ade6-fec5c4ad7652",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -396,8 +396,8 @@
         "id": "1a7f853a-ec3f-4a9c-814a-986979723a5a",
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testDate": "2014-02-01",
+        "testLink": "http://gluteninbeer.blogspot.com/2014/02/coors-light.html",
         "testNotes": "Confirmed negative."
       }
     ],
@@ -446,8 +446,8 @@
         "id": "d5784d6f-d3e2-4b1c-8abe-dfee2f021901",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2013-09-06",
+        "testLink": "https://www.lowgluten.org/corona-test/",
         "testNotes": "Estimated 0ppm. Not detected."
       },
       {
@@ -480,8 +480,8 @@
         "id": "e039492b-bc2a-4ec0-adeb-b46642bff230",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-12-01",
+        "testLink": "https://www.lowgluten.org/dorada-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -506,8 +506,8 @@
         "id": "17b4b3fc-cd09-40e4-b23e-1fa0d9dea264",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2018-12-16",
+        "testLink": "https://www.lowgluten.org/erzquell-pils-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -594,9 +594,9 @@
         "id": "627bbe5a-ca4a-42a1-b720-5396c967b227",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 3-4ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 3-4ppm."
+        "testNotes": "Estimated 3-4ppm. Date approximate — original post date not captured in source."
       },
       {
         "id": "75c465f5-4974-439c-9bf8-f660865cc174",
@@ -628,8 +628,8 @@
         "id": "aefa31c2-c8d9-477e-9de9-05aa7a1a3daa",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2019-05-26",
+        "testLink": "https://www.lowgluten.org/herforder-pils-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -672,8 +672,8 @@
         "id": "4b1b0ad6-1c8d-475f-8979-1ea0dd8d0c3b",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2020-01-03",
+        "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -716,8 +716,8 @@
         "id": "46e837c1-6785-4232-a64b-499466e8a2f7",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-07-15",
+        "testLink": "https://www.lowgluten.org/kirin-hard-cidre-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -742,8 +742,8 @@
         "id": "cd0be8db-7d71-4fe7-bfea-2b242c874ba3",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-05-20",
+        "testLink": "https://www.lowgluten.org/kirin-nodogoshi-nama/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -822,8 +822,8 @@
         "id": "da19b791-65e8-4d86-b50b-398af7688147",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2020-01-03",
+        "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "Estimated 0ppm."
       },
       {
@@ -916,8 +916,8 @@
         "id": "082dd5f3-7a75-4180-8283-d5e473b9755b",
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testDate": "2014-01-01",
+        "testLink": "http://gluteninbeer.blogspot.com/2014/01/modelo-especial.html",
         "testNotes": "Confirmed negative."
       }
     ],
@@ -942,8 +942,8 @@
         "id": "7c60ac24-0fa4-4a57-8d31-17c8de72040e",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-08-12",
+        "testLink": "https://www.lowgluten.org/mythos-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1076,8 +1076,8 @@
         "id": "fbd77032-c730-42b5-9e5c-9edaa335620b",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2018-03-14",
+        "testLink": "https://www.lowgluten.org/radeberger-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1120,8 +1120,8 @@
         "id": "c268d361-fe49-45ef-a99f-24e52c845cc6",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2019-07-27",
+        "testLink": "https://www.lowgluten.org/rothaus-pils-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1154,8 +1154,8 @@
         "id": "53608641-8ef0-476e-bf2f-94d781b84d4b",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2018-11-24",
+        "testLink": "https://www.lowgluten.org/samuel-adams-boston-lager-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1198,7 +1198,7 @@
         "id": "e525f44d-e841-49aa-bd76-aa77ceb08533",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -1224,7 +1224,7 @@
         "id": "258c87ff-0892-46f3-bd92-e749de8c307b",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -1250,8 +1250,8 @@
         "id": "15895ac8-d78a-412f-9fb7-42608e60137b",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2018-08-24",
+        "testLink": "https://www.lowgluten.org/snow-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1300,15 +1300,15 @@
         "id": "1c123798-adfc-490d-8e99-e0552e722c44",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-09-17",
+        "testLink": "https://www.lowgluten.org/stella-artois-gluten-test/",
         "testNotes": "Estimated 0ppm."
       },
       {
         "id": "73683d87-054d-4b35-84bb-8ddc6a57c105",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Not consumed by tester."
       }
@@ -1342,7 +1342,7 @@
         "id": "44014642-059c-4c57-b1d3-ab71d52ee8e2",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -1404,8 +1404,8 @@
         "id": "ab31455a-dd02-4edc-8b60-cba4d953226c",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2019-06-26",
+        "testLink": "https://www.lowgluten.org/timisoreana-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -1644,16 +1644,16 @@
         "id": "18fbfb56-13da-4cbd-8f22-c4740d96d20d",
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "http://gluteninbeer.blogspot.com/",
+        "testDate": "2014-08-01",
+        "testLink": "http://gluteninbeer.blogspot.com/2014/08/carlsberg.html",
         "testNotes": null
       },
       {
         "id": "e2f11585-f27e-40a2-a218-af5cda50e1b5",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2013-09-29",
+        "testLink": "https://www.lowgluten.org/carlsberg-gluten-test/",
         "testNotes": "GlutenTox 20ppm threshold negative. Test 1 of 2."
       },
       {
@@ -2076,8 +2076,8 @@
         "id": "dc5f08c5-92cb-4886-819a-ae42a047844c",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 6ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-08-11",
+        "testLink": "https://www.lowgluten.org/tsingtao-gluten-test/",
         "testNotes": "Estimated 6ppm."
       }
     ],
@@ -2136,8 +2136,8 @@
         "id": "93379496-915e-41ad-a582-09bc753d6551",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2015-12-19",
+        "testLink": "https://www.lowgluten.org/asahi-gluten-test/",
         "testNotes": "Estimated ~1ppm. Classified positive by site."
       }
     ],
@@ -2170,8 +2170,8 @@
         "id": "6c4cd8d9-b7f0-4947-90e1-a15b7b060436",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2015-02-23",
+        "testLink": "https://www.lowgluten.org/brooklyn-lager-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -2340,8 +2340,8 @@
         "id": "4312eaf3-e70f-492b-a768-92cb62c344c0",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2016-04-30",
+        "testLink": "https://www.lowgluten.org/kirin-heartland-gluten-test/",
         "testNotes": "Estimated 1ppm."
       }
     ],
@@ -2408,8 +2408,8 @@
         "id": "8604a9d8-7e43-4a0d-ad0d-641e93b4e63d",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-04-09",
+        "testLink": "https://www.lowgluten.org/miller-lite-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -2458,8 +2458,8 @@
         "id": "92bd5205-8707-463c-bae0-1c1b09a4adec",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1-2ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-01-03",
+        "testLink": "https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/",
         "testNotes": "Estimated 1-2ppm."
       }
     ],
@@ -2976,8 +2976,8 @@
         "id": "a5716691-4fca-4b86-bcd3-8da2f52ba46b",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1-2ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-10-15",
+        "testLink": "https://www.lowgluten.org/hofbrau-sommerzwickl-gluten-test/",
         "testNotes": "Estimated 1-2ppm."
       }
     ],
@@ -3074,8 +3074,8 @@
         "id": "c90d3808-2083-4216-bbaf-8ad6044b11d4",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 3-4ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-04-29",
+        "testLink": "https://www.lowgluten.org/kirin-ichiban-shibori/",
         "testNotes": "Estimated 3-4ppm."
       }
     ],
@@ -3214,8 +3214,8 @@
         "id": "c4543b99-d550-45dd-8cf5-f1e49f74e9c0",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2014-06-18",
+        "testLink": "https://www.lowgluten.org/michelob-ultra-gluten-test/",
         "testNotes": "Estimated 1ppm."
       }
     ],
@@ -3284,7 +3284,7 @@
         "id": "88d67b9b-cb78-4d00-82e7-ac3fc4234261",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": null
       }
@@ -3436,8 +3436,8 @@
         "id": "c23cb289-63ee-44ce-a6d8-67abe1555434",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 3ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2020-05-10",
+        "testLink": "https://www.lowgluten.org/perlenbacher-pils-gluten-test/",
         "testNotes": "Estimated 3ppm."
       }
     ],
@@ -3480,8 +3480,8 @@
         "id": "20beb4f0-338e-41a2-b3c6-5ac2d50bcc15",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 4ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2018-01-02",
+        "testLink": "https://www.lowgluten.org/petoskey-sparkle-gluten-test/",
         "testNotes": "Estimated 4ppm."
       }
     ],
@@ -3524,8 +3524,8 @@
         "id": "6c67eda3-cdbc-484e-9a14-ea4c484e0dc0",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2015-01-30",
+        "testLink": "https://www.lowgluten.org/pilsner-urquell-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
     ],
@@ -3604,8 +3604,8 @@
         "id": "5df58531-6707-481a-8edd-2c8bee538db4",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 2-3ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2017-06-25",
+        "testLink": "https://www.lowgluten.org/sapporo-black-label-gluten-test/",
         "testNotes": "Estimated 2-3ppm."
       }
     ],
@@ -3684,8 +3684,8 @@
         "id": "35d03796-d95c-4090-9262-0d484cfef5c7",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 3ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2019-04-20",
+        "testLink": "https://www.lowgluten.org/spaten-oktoberfestbier-gluten-test/",
         "testNotes": "Estimated 3ppm."
       }
     ],
@@ -3782,8 +3782,8 @@
         "id": "9d7e6bf7-34a9-4a8c-a259-537742980abc",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 2ppm",
-        "testDate": "",
-        "testLink": "https://www.lowgluten.org/",
+        "testDate": "2020-04-01",
+        "testLink": "https://www.lowgluten.org/tuborg-pilsener-gluten-test/",
         "testNotes": "Estimated 2ppm."
       }
     ],
@@ -3854,9 +3854,9 @@
         "id": "b8b40cc2-c37e-40d3-8d50-ad38425dc73f",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 0ppm. Not detected."
+        "testNotes": "Estimated 0ppm. Not detected. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3871,9 +3871,9 @@
         "id": "85d45ea2-cf69-450e-9f39-60a0ba5d6168",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 5ppm. Negative by EU 20ppm standard."
+        "testNotes": "Estimated 5ppm. Negative by EU 20ppm standard. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3888,9 +3888,9 @@
         "id": "a09eb3cf-5856-42f6-9e4f-23cf581e7bba",
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 20ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 20ppm threshold positive (>20ppm)."
+        "testNotes": "GlutenTox 20ppm threshold positive (>20ppm). Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3905,9 +3905,9 @@
         "id": "4cddb075-8935-41f8-ab33-46cc3065abfc",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative."
+        "testNotes": "GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3922,9 +3922,9 @@
         "id": "da643d31-d1f9-46bf-a3ba-f50a37680185",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 20ppm threshold negative."
+        "testNotes": "GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3939,9 +3939,9 @@
         "id": "79bffc59-2928-4f14-a417-beac9a164316",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 5-6ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 5-6ppm. Labeled gluten-reduced."
+        "testNotes": "Estimated 5-6ppm. Labeled gluten-reduced. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3956,9 +3956,9 @@
         "id": "d0fdd300-3149-427d-8004-52008baf7a4f",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative."
+        "testNotes": "GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3973,9 +3973,9 @@
         "id": "7eb162a1-cdd8-419f-904e-20e90d421e80",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 8-9ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 8-9ppm."
+        "testNotes": "Estimated 8-9ppm. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -3990,9 +3990,9 @@
         "id": "1ebcaee4-19dd-4bd2-9d06-ec38565e5fa5",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 20ppm threshold negative."
+        "testNotes": "GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4007,9 +4007,9 @@
         "id": "5212a63e-dd6a-4637-bda2-78203b83923c",
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 4-5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 4-5ppm."
+        "testNotes": "Estimated 4-5ppm. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4024,9 +4024,9 @@
         "id": "4acbacbe-066b-48d9-9192-583bdf781c0a",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 0ppm."
+        "testNotes": "Estimated 0ppm. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4041,9 +4041,9 @@
         "id": "1c50f2b3-9db9-4f6f-be1c-3189be6a3918",
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 20ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 20ppm threshold positive."
+        "testNotes": "GlutenTox 20ppm threshold positive. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4058,9 +4058,9 @@
         "id": "6a4c97e4-72b0-4ffc-a525-6490ff355b54",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 20ppm threshold negative."
+        "testNotes": "GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4075,9 +4075,9 @@
         "id": "f98014c3-4617-46fc-95e9-73fb87de88af",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative."
+        "testNotes": "GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4092,9 +4092,9 @@
         "id": "2f8c9a52-1b03-4053-890f-b148f1719f77",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative."
+        "testNotes": "GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4109,17 +4109,17 @@
         "id": "398e9cd1-9df1-405a-bc49-c6d32528e12e",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 0ppm."
+        "testNotes": "Estimated 0ppm. Date approximate — original post date not captured in source."
       },
       {
         "id": "88430120-bac6-4573-81bd-d8673cc0f53c",
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative. Both kits negative."
+        "testNotes": "GlutenTox 5ppm threshold negative. Both kits negative. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4134,9 +4134,9 @@
         "id": "f59e9d13-3310-4c6a-9efb-6274e327d380",
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 5ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold positive."
+        "testNotes": "GlutenTox 5ppm threshold positive. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -4151,9 +4151,9 @@
         "id": "fce6d46c-c924-4547-baf4-cd259bbb5246",
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "",
+        "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 0ppm."
+        "testNotes": "Estimated 0ppm. Date approximate — original post date not captured in source."
       }
     ]
   },
@@ -5168,7 +5168,7 @@
         "id": "ebf1e5ca-7101-44d5-9c25-e57585a3b606",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -5185,7 +5185,7 @@
         "id": "10e5fed2-dcb8-4fab-987a-360f4e9bcd56",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -5202,7 +5202,7 @@
         "id": "dd38c80b-0637-4994-8547-8e5d93bd302b",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -5219,7 +5219,7 @@
         "id": "2ea4f7ce-7b25-4db8-96ba-024735875bb1",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -5236,7 +5236,7 @@
         "id": "a057fe2c-07b7-4b36-a59a-a5fbfa0720ac",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
@@ -5253,7 +5253,7 @@
         "id": "73bb72d7-61da-4b6b-973d-cd6a1999d913",
         "testType": "Reveal 3-D for Gliadin (G12)",
         "testResult": "Negative at 5ppm",
-        "testDate": "",
+        "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
       }
