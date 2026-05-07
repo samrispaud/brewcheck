@@ -67,7 +67,9 @@ export function renderBeer(id) {
     <section class="detail-section">
       <h2>Test results (${beer.testResults.length})</h2>
       <ul class="test-list">
-        ${beer.testResults.map(testItemHtml).join("")}
+        ${[...beer.testResults]
+          .sort((a, b) => (b.testDate || "").localeCompare(a.testDate || ""))
+          .map(testItemHtml).join("")}
       </ul>
     </section>
 

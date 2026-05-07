@@ -311,6 +311,7 @@ main {
   border-color: var(--navy-900);
 }
 
+.filters__count[hidden] { display: none; }
 .filters__count {
   display: inline-flex;
   align-items: center;

@@ -193,23 +193,25 @@ export function tierFor(beer, today = new Date()) {
 /**
  * Short evidence summary for UI subtext.
  * Examples:
- *   "Tested by 4 sources · 5 negative + 1 positive · batch variation"
- *   "Single source · 2 negative results"
- *   "Single source · 1 positive result"
+ *   "Tested 6 times · 5 negative + 1 positive · batch variation"
+ *   "Tested once · 2 negative results"
+ *   "Tested once · 1 positive result"
  */
 export function evidenceSummary(beer, today = new Date()) {
   const ev = evaluateBeer(beer, today);
   if (!ev) return "No recognized test data.";
   const { sources, nNeg, nPos, batchVariation } = ev;
   const ns = sources.size;
+  const total = nNeg + nPos;
+  const timesLabel = total === 1 ? "Tested once" : `Tested ${total} times`;
 
   if (ns === 1) {
-    if (nPos === 0) return `Single source · ${nNeg} negative result${nNeg === 1 ? "" : "s"}`;
-    if (nNeg === 0) return `Single source · ${nPos} positive result${nPos === 1 ? "" : "s"}`;
-    return `Single source · ${nNeg} negative + ${nPos} positive`;
+    if (nPos === 0) return `${timesLabel} · ${nNeg} negative result${nNeg === 1 ? "" : "s"}`;
+    if (nNeg === 0) return `${timesLabel} · ${nPos} positive result${nPos === 1 ? "" : "s"}`;
+    return `${timesLabel} · ${nNeg} negative + ${nPos} positive`;
   }
 
-  const parts = [`Tested by ${ns} sources`];
+  const parts = [timesLabel];
   parts.push(`${nNeg} negative + ${nPos} positive`);
   if (batchVariation) parts.push("batch variation observed");
   return parts.join(" · ");
