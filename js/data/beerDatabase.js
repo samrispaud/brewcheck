@@ -1,4 +1,4 @@
-// Loads beer data from /data/beer_data.json once and exposes search().
+// Loads beer data from /data/beer_data.json once.
 
 import { match as fuzzyMatch } from "./fuzzyMatcher.js";
 import { tierFor, compareBeersByTier } from "../services/scoreEngine.js";
@@ -18,12 +18,7 @@ export async function loadDatabase() {
   return beers.length;
 }
 
-export function search(query, threshold = 0.5) {
-  if (!query || query.trim().length < 2) return [];
-  return fuzzyMatch(query, beers, threshold);
-}
-
-// Used by milestone 3 (OCR) — match many candidate strings, dedupe by beer.id.
+// Used by the OCR view — match many candidate strings, dedupe by beer.id.
 export function searchMultiple(queries, threshold = 0.6) {
   const seen = new Map();
   for (const q of queries) {
@@ -37,7 +32,7 @@ export function searchMultiple(queries, threshold = 0.6) {
   }
   return [...seen.values()].sort((a, b) => {
     if (a.confidence !== b.confidence) return b.confidence - a.confidence;
-    return b.beer.gfConfidenceScore - a.beer.gfConfidenceScore;
+    return (a.beer.name || "").localeCompare(b.beer.name || "");
   });
 }
 

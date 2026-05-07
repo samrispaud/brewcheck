@@ -59,7 +59,7 @@ export function match(query, beers, threshold = 0.5) {
 
   matches.sort((a, b) => {
     if (a.confidence !== b.confidence) return b.confidence - a.confidence;
-    return b.beer.gfConfidenceScore - a.beer.gfConfidenceScore;
+    return (a.beer.name || "").localeCompare(b.beer.name || "");
   });
 
   return matches;
