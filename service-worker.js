@@ -2,7 +2,6 @@
 // Strategy:
 //   - Static shell (HTML/CSS/JS/icons): cache-first with network fallback.
 //   - Beer data: network-first so updates ship without users having to clear cache.
-//   - Tesseract CDN assets: cached on first use so OCR works offline after first scan.
 
 const CACHE_NAME = "brewcheck-v1";
 const SHELL_ASSETS = [
@@ -16,10 +15,8 @@ const SHELL_ASSETS = [
   "./js/utils/queryPreprocessor.js",
   "./js/services/recommendationEngine.js",
   "./js/services/speechRecognizer.js",
-  "./js/services/textRecognizer.js",
   "./js/views/searchView.js",
   "./js/views/beerDetailView.js",
-  "./js/views/menuScanView.js",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/apple-touch-icon-180.png",
@@ -61,7 +58,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Cross-origin (Tesseract CDN): cache opportunistically
+  // Cross-origin: cache opportunistically
   event.respondWith(cacheFirst(req));
 });
 

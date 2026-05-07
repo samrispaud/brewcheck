@@ -16,7 +16,6 @@ Use at your own risk. This is not medical advice but should be used to help peop
 
 - **Search.** Type a beer name, or a question.
 - **Voice search.** Tap the mic and say the name. Works on Chrome, Edge, and Safari. Firefox shows a fallback.
-- **Menu scan.** Take or upload a photo of a beer menu. OCR runs in the browser via Tesseract.js — best-effort, 5–15 seconds on a phone.
 
 Results are color-coded against the FDA's 20 ppm gluten-free threshold. Beers with inconsistent batch results are flagged separately.
 

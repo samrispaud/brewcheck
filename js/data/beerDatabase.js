@@ -18,24 +18,6 @@ export async function loadDatabase() {
   return beers.length;
 }
 
-// Used by the OCR view — match many candidate strings, dedupe by beer.id.
-export function searchMultiple(queries, threshold = 0.6) {
-  const seen = new Map();
-  for (const q of queries) {
-    const results = fuzzyMatch(q, beers, threshold);
-    for (const r of results) {
-      const existing = seen.get(r.beer.id);
-      if (!existing || r.confidence > existing.confidence) {
-        seen.set(r.beer.id, r);
-      }
-    }
-  }
-  return [...seen.values()].sort((a, b) => {
-    if (a.confidence !== b.confidence) return b.confidence - a.confidence;
-    return (a.beer.name || "").localeCompare(b.beer.name || "");
-  });
-}
-
 export function getBeer(id) {
   return beersById.get(id) || null;
 }

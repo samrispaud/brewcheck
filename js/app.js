@@ -1,32 +1,20 @@
-// App bootstrap: load DB, hash routing, tab nav.
+// App bootstrap: load DB, hash routing.
 
 import { loadDatabase } from "./data/beerDatabase.js";
 import { initSearchView, focusSearch, renderSearch } from "./views/searchView.js";
 import { initBeerDetailView, renderBeer } from "./views/beerDetailView.js";
-import { initMenuScanView } from "./views/menuScanView.js";
 
 const views = {
   search: document.getElementById("view-search"),
-  scan: document.getElementById("view-scan"),
   detail: document.getElementById("view-detail"),
   loading: document.getElementById("view-loading"),
   error: document.getElementById("view-error"),
 };
 
-const navTabs = document.querySelectorAll(".nav-tab");
-
 function showView(name) {
   for (const [key, el] of Object.entries(views)) {
     el.hidden = key !== name;
     el.classList.toggle("view--active", key === name);
-  }
-  // Sync nav tabs (only for search/scan; detail/loading/error don't change tab)
-  if (name === "search" || name === "scan") {
-    navTabs.forEach(tab => {
-      const active = tab.dataset.tab === name;
-      if (active) tab.setAttribute("aria-current", "page");
-      else tab.removeAttribute("aria-current");
-    });
   }
 }
 
@@ -43,33 +31,11 @@ function handleRoute() {
     showView("detail");
     return;
   }
-  if (hash === "#/scan") {
-    showView("scan");
-    return;
-  }
   showView("search");
-}
-
-function setupNav() {
-  navTabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      const target = tab.dataset.tab;
-      if (target === "search") {
-        if (location.hash) {
-          history.pushState(null, "", location.pathname + location.search);
-        }
-        showView("search");
-        focusSearch();
-      } else if (target === "scan") {
-        location.hash = "#/scan";
-      }
-    });
-  });
 }
 
 function registerServiceWorker() {
   if (!("serviceWorker" in navigator)) return;
-  // Service workers require https or localhost; skip otherwise to avoid noise.
   const isLocalhost = ["localhost", "127.0.0.1"].includes(location.hostname);
   if (location.protocol !== "https:" && !isLocalhost) return;
   window.addEventListener("load", () => {
@@ -99,8 +65,6 @@ async function main() {
 
   initSearchView({ onSelectBeer: navigateToBeer });
   initBeerDetailView({ onBack: () => history.back() });
-  initMenuScanView({ onSelectBeer: navigateToBeer });
-  setupNav();
   setupDisclaimer();
 
   try {
