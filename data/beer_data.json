@@ -54,8 +54,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/06/21/amstel-light-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 20-30ppm"
       }
     ]
   },
@@ -383,8 +383,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-02-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/05/03/bud-light-gluten-test-results/",
+        "testNotes": "Ran test twice for QA both positive. Estimated 30-60ppm"
       },
       {
         "testType": "GlutenTox Home Kit",
@@ -405,8 +405,15 @@
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
         "testDate": "2022-04-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Tested twice (April 2022 and September 2022) both negative. Estimated <10ppm gluten"
+        "testLink": "https://cookingaldante.com/2022/05/03/bud-light-next-gluten-test-result/",
+        "testNotes": "April 2022 test. Negative <10ppm"
+      },
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Negative at 10ppm",
+        "testDate": "2022-09-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/bud-light-next-gluten-test-result/",
+        "testNotes": "September 2022 retest. Also negative <10ppm"
       }
     ]
   },
@@ -420,8 +427,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/06/18/bud-light-platinum-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 5-20ppm; author noted lower ppm may be acceptable for non-celiac gluten sensitivity"
       }
     ]
   },
@@ -435,8 +442,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/10/budweiser-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       }
     ]
   },
@@ -480,8 +487,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/10/busch-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "GlutenTox Home Kit",
@@ -517,8 +524,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-02-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result. R5 ELISA results available from 2009 Swedish study."
+        "testLink": "https://cookingaldante.com/2022/05/03/carlsberg-gluten-test-results/",
+        "testNotes": "Single test positive result. Estimated 20-30ppm. R5 ELISA results available from 2009 Swedish study"
       },
       {
         "testType": "EZ Gluten",
@@ -605,8 +612,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-04-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/05/03/chimay-premiere-ale/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm. Author speculated unfiltered nature contributed to result"
       }
     ]
   },
@@ -680,8 +687,15 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-01-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Tested January 2022 and September 2022 both positive. Estimated ~20ppm gluten."
+        "testLink": "https://cookingaldante.com/2022/05/03/coors-light-high-positive-20ppm/",
+        "testNotes": "January 2022 test. Positive estimated 30-60ppm"
+      },
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-09-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/coors-light-high-positive-20ppm/",
+        "testNotes": "September 2022 retest. Still positive estimated 30-60ppm"
       },
       {
         "testType": "EZ Gluten",
@@ -709,15 +723,15 @@
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
         "testDate": "2022-01-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Initial 2022 EZ Gluten test."
+        "testLink": "https://cookingaldante.com/2022/05/03/corona-extra/",
+        "testNotes": "January 2022 test. Negative <10ppm; author noted faint line as suspect"
       },
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
-        "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Retest later in 2022 returned positive."
+        "testDate": "2022-10-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/corona-extra/",
+        "testNotes": "October 2022 retest. Convincingly positive"
       },
       {
         "testType": "EZ Gluten",
@@ -752,8 +766,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/06/18/corona-familiar-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       }
     ]
   },
@@ -767,15 +781,15 @@
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Initial June 2022 test."
+        "testLink": "https://cookingaldante.com/2022/06/05/corona-light-premier-gluten-test-results/",
+        "testNotes": "June 2022 test. Negative <10ppm"
       },
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-10-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Retest pattern across multiple draws was -/+/+/+; majority positive."
+        "testLink": "https://cookingaldante.com/2022/06/05/corona-light-premier-gluten-test-results/",
+        "testNotes": "October 2022 retest. Positive estimated 30-60ppm"
       }
     ]
   },
@@ -789,8 +803,15 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Tested June 2022 and October 2022 both positive. Discordant results noted as (-/+/+/+)"
+        "testLink": "https://cookingaldante.com/2022/06/05/corona-light-premier-gluten-test-results/",
+        "testNotes": "June 2022 test. Positive estimated 20-30ppm"
+      },
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-10-01",
+        "testLink": "https://cookingaldante.com/2022/06/05/corona-light-premier-gluten-test-results/",
+        "testNotes": "October 2022 retest. Positive estimated 30-60ppm. Discordant pattern noted (-/+/+/+)"
       }
     ]
   },
@@ -840,9 +861,9 @@
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
-        "testDate": "2022-01-01",
-        "testLink": "https://cookingaldante.com/2023/02/05/ez-gluten-beer-testing-and-research/",
-        "testNotes": "Gluten-reduced beer using AN-PEP enzyme. All 7 gluten-reduced beers tested showed positive results."
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
       }
     ]
   },
@@ -858,6 +879,21 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "7ecf5661-cd53-4e74-8f89-683bd8af57a9",
+    "name": "Deschutes Juicy Pale",
+    "brewery": "Deschutes Brewery",
+    "style": "Gluten-Reduced Beer",
+    "testResults": [
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
       }
     ]
   },
@@ -1072,8 +1108,8 @@
     ]
   },
   {
-    "id": "22f02138-37db-4660-a036-2dc927087d99",
-    "name": "Falken Beer July",
+    "id": "eccc1e11-e632-49af-be25-22304ebac1d1",
+    "name": "Falken Jul Öl",
     "brewery": "Falken Falkenberg",
     "style": "Lager",
     "testResults": [
@@ -1253,8 +1289,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/12/heineken-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "EZ Gluten",
@@ -1371,7 +1407,7 @@
   {
     "id": "f9b1a57c-dd13-40c1-94f8-1e2208cc68cb",
     "name": "Imperial Stout",
-    "brewery": "Source Castle Brewery",
+    "brewery": "Slottskällans Bryggeri",
     "style": "Imperial Stout",
     "testResults": [
       {
@@ -1803,8 +1839,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/10/michelob-ultra-test-result/",
+        "testNotes": "Single test positive result. Estimated 20-30ppm"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -1840,8 +1876,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/12/miller-lite-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -1862,15 +1898,15 @@
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
         "testDate": "2022-01-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Initial January 2022 test."
+        "testLink": "https://cookingaldante.com/2022/05/03/modelo-negative-10ppm/",
+        "testNotes": "Initial test negative; author later revised as possible misread"
       },
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-10-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "October 2022 retest returned positive."
+        "testLink": "https://cookingaldante.com/2022/05/03/modelo-negative-10ppm/",
+        "testNotes": "October 2022 retest positive. Estimated 20-30ppm"
       },
       {
         "testType": "EZ Gluten",
@@ -1898,15 +1934,15 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-06-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Initial June 2022 test returned positive."
+        "testLink": "https://cookingaldante.com/2022/06/18/modelo-negra-gluten-test-result/",
+        "testNotes": "June 2022 test. Positive estimated 30-60ppm"
       },
       {
         "testType": "EZ Gluten",
         "testResult": "Negative at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "September 2022 retest returned negative."
+        "testLink": "https://cookingaldante.com/2022/06/18/modelo-negra-gluten-test-result/",
+        "testNotes": "September 2022 retest. Negative <10ppm; likely borderline 10-20ppm"
       }
     ]
   },
@@ -1965,8 +2001,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-08-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/08/25/new-belgium-fat-tire-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "Reveal 3-D for Gliadin (G12)",
@@ -2037,8 +2073,8 @@
     ]
   },
   {
-    "id": "6c86a6fc-3f0a-4d24-bd21-cec5e0693bec",
-    "name": "Norrland July",
+    "id": "fd24f6c0-8447-4c45-80d0-75bbdcaf0630",
+    "name": "Norrlands Jul",
     "brewery": "Spendrups Brewery",
     "style": "Christmas Beer",
     "testResults": [
@@ -2082,17 +2118,62 @@
     ]
   },
   {
-    "id": "e674ab13-4ff3-4f36-aaa5-14ff06eb07fb",
-    "name": "Omission",
+    "id": "3aff842b-0223-4ee5-a481-7f10dfcd4fe0",
+    "name": "Omission IPA",
     "brewery": "Omission Brewing",
     "style": "Gluten-Reduced Beer",
     "testResults": [
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
-        "testDate": "2022-01-01",
-        "testLink": "https://cookingaldante.com/2023/02/05/ez-gluten-beer-testing-and-research/",
-        "testNotes": "Gluten-reduced beer using AN-PEP enzyme. All 7 gluten-reduced beers tested showed positive results despite manufacturer claims."
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
+      }
+    ]
+  },
+  {
+    "id": "0698f12e-69ba-43d4-a8c1-71e1fa0d48dd",
+    "name": "Omission Lager",
+    "brewery": "Omission Brewing",
+    "style": "Gluten-Reduced Beer",
+    "testResults": [
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
+      }
+    ]
+  },
+  {
+    "id": "c386ed27-49dd-432b-8fde-c38fac341f74",
+    "name": "Omission Pale Ale",
+    "brewery": "Omission Brewing",
+    "style": "Gluten-Reduced Beer",
+    "testResults": [
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
+      }
+    ]
+  },
+  {
+    "id": "4cbc9ed4-ba89-4439-83fe-9351cd1edfd8",
+    "name": "Omission Ultimate Light",
+    "brewery": "Omission Brewing",
+    "style": "Gluten-Reduced Beer",
+    "testResults": [
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
       }
     ]
   },
@@ -2106,8 +2187,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/12/pabst-blue-ribbon-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -2134,9 +2215,9 @@
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
-        "testDate": "2022-04-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/pacifico-gluten-test-result/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm. Conflicts with a 2016 negative test; author planned follow-up retest"
       }
     ]
   },
@@ -2390,8 +2471,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-08-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/08/20/samuel-adams-boston-lager-gluten_free/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -2607,23 +2688,15 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-08-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Tested August 2022 and October 2022 both positive. R5 ELISA results available from 2009 Swedish study."
-      }
-    ]
-  },
-  {
-    "id": "cba981db-2a15-43f8-8852-a6b2885de8d9",
-    "name": "Source Castle Christmas Beer",
-    "brewery": "Source Castle Brewery",
-    "style": "Christmas Beer",
-    "testResults": [
+        "testLink": "https://cookingaldante.com/2022/08/20/sol-beer-gluten-free_positive/",
+        "testNotes": "August 2022 test. Positive estimated 20-40ppm"
+      },
       {
-        "testType": "R5 competitive ELISA",
-        "testResult": "Positive 23ppm",
-        "testDate": "2009-01-01",
-        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
-        "testNotes": "23mg/L. ABV 3.5%"
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-10-01",
+        "testLink": "https://cookingaldante.com/2022/08/20/sol-beer-gluten-free_positive/",
+        "testNotes": "October 2022 retest. Also positive"
       }
     ]
   },
@@ -2717,9 +2790,9 @@
     ]
   },
   {
-    "id": "6ba40b62-02ef-497f-9518-186f7d2fe78d",
-    "name": "St. Petersburg G-Free",
-    "brewery": "St Peters Brewery",
+    "id": "dbe6ac99-5f15-47b5-836b-65630965066f",
+    "name": "St. Peter's G-Free",
+    "brewery": "St. Peter's Brewery",
     "style": "Gluten-Free Lager",
     "testResults": [
       {
@@ -2786,8 +2859,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/12/stella-artois-gluten-test-result/",
+        "testNotes": "September 2022 test. Positive estimated 30-60ppm. Prior July 2022 test also positive (undocumented)"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -2836,6 +2909,21 @@
     ]
   },
   {
+    "id": "5cab5258-8b43-462d-bbb7-afc22785eced",
+    "name": "Stone Delicious IPA",
+    "brewery": "Stone Brewing",
+    "style": "Gluten-Reduced Beer",
+    "testResults": [
+      {
+        "testType": "EZ Gluten",
+        "testResult": "Positive at 10ppm",
+        "testDate": "2022-05-01",
+        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
+        "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
+      }
+    ]
+  },
+  {
     "id": "08b5702a-1e1b-4bfe-bf1d-a1cfae3458a3",
     "name": "Stone IPA",
     "brewery": "Stone Brewing",
@@ -2860,8 +2948,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-09-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/09/12/summit-epa-gluten-test-result/",
+        "testNotes": "September 2022 test. Positive estimated 30-60ppm. Second time testing; first also positive"
       }
     ]
   },
@@ -2875,8 +2963,8 @@
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
         "testDate": "2022-05-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testLink": "https://cookingaldante.com/2022/06/03/tecate-gluten-test-results/",
+        "testNotes": "Single test positive result. Estimated 30-60ppm"
       }
     ]
   },
@@ -2949,9 +3037,9 @@
       {
         "testType": "EZ Gluten",
         "testResult": "Positive at 10ppm",
-        "testDate": "2022-10-01",
-        "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-beer-testing-results/",
-        "testNotes": "Single test positive result"
+        "testDate": "2022-12-01",
+        "testLink": "https://cookingaldante.com/2022/12/16/tsingtao-gluten-test-results/",
+        "testNotes": "Single test positive result >10ppm"
       },
       {
         "testType": "Gluten-in-food kit",
@@ -3023,6 +3111,21 @@
     ]
   },
   {
+    "id": "45e1cb9c-2a5b-4773-8bd3-bc6c05db0eac",
+    "name": "Uppsala Julöl",
+    "brewery": "Slottskällans Bryggeri",
+    "style": "Christmas Beer",
+    "testResults": [
+      {
+        "testType": "R5 competitive ELISA",
+        "testResult": "Positive 23ppm",
+        "testDate": "2009-01-01",
+        "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
+        "testNotes": "23mg/L. ABV 3.5%"
+      }
+    ]
+  },
+  {
     "id": "00767de5-30d1-4e86-b654-a22e8da2b2a0",
     "name": "Vale Lager",
     "brewery": "Vale",
@@ -3040,7 +3143,7 @@
   {
     "id": "22b1d2af-5955-4bb4-9ad2-b0dfbc3d038c",
     "name": "Vienna",
-    "brewery": "Source Castle Brewery",
+    "brewery": "Slottskällans Bryggeri",
     "style": "Vienna Lager",
     "testResults": [
       {
@@ -3092,7 +3195,7 @@
   {
     "id": "ed471c9c-2431-4066-894b-a90155e21036",
     "name": "White Weissbier",
-    "brewery": "Source Castle Brewery",
+    "brewery": "Slottskällans Bryggeri",
     "style": "Wheat Beer",
     "testResults": [
       {
@@ -3152,7 +3255,7 @@
   {
     "id": "b4a32757-e31b-4f10-865d-0d1b8a080021",
     "name": "Zlatopramen",
-    "brewery": "Pivovar Nova Paka",
+    "brewery": "Pivovar Krásné Březno",
     "style": "Dark Lager",
     "testResults": [
       {
