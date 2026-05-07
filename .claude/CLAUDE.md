@@ -67,11 +67,13 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 ## Scoring
 
-Tiers and scores are computed at runtime by `js/services/scoreEngine.js`. `gfConfidenceScore` in `beer_data.json` is a legacy field the display logic ignores — don't use it for anything new.
+Tiers and scores are computed at runtime by `js/services/scoreEngine.js`.
 
 ## Data Pipeline
 
-Scrape → `data/sources/*.csv` → `python3 scripts/merge_csv_data.py` → `python3 scripts/clean_test_data.py` → commit `data/beer_data.json`. Both scripts are idempotent. `scripts/fill_test_dates.py` was a one-time backfill, not part of the regular pipeline.
+`data/sources/*.csv` → `python3 scripts/merge_csv_data.py` → commit `data/beer_data.json`.
+
+To add new data: run `/ingest` — the skill handles fetching, schema conformance, dedup checking, and user confirmation, then appends rows to the appropriate CSV. The Python script is a pure converter (CSVs are the source of truth).
 
 ## Commits
 
