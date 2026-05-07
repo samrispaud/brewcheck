@@ -67,8 +67,25 @@ def norm(s):
         return ""
     s = s.lower().strip()
     s = re.sub(r"\s+", " ", s)
-    s = re.sub(r"[\.\,'\"’]", "", s)
+    s = re.sub(r"[\.\,’\"’]", "", s)
     return s
+
+
+def _source_of_link(link):
+    if not link:
+        return None
+    h = link.lower()
+    if "nfa" in h or "witchtrials" in h:
+        return "nfa"
+    if "cookingaldante" in h:
+        return "cookingaldante"
+    if "gluteninbeer" in h:
+        return "gluteninbeer"
+    if "smartgurl" in h:
+        return "smartgurl"
+    if "lowgluten" in h:
+        return "lowgluten"
+    return None
 
 
 def kit_key(s):
@@ -135,8 +152,18 @@ def main(dry_run=False):
 
             if target_key:
                 target = db_by_norm[target_key]
-                # Skip if duplicate. Use kit-key (strips hyphens/spaces) so
-                # 'E-Z Gluten' and 'EZ Gluten' collapse to the same entry.
+                # Primary dedup: same source domain + same date = same test event.
+                # Fallback: same kit name (normalised) + same result + same date.
+                src_date_keys = {
+                    (_source_of_link(t.get("testLink")), (t.get("testDate") or "").strip())
+                    for t in target["testResults"]
+                    if _source_of_link(t.get("testLink"))
+                }
+                incoming_src = _source_of_link(test_obj.get("testLink"))
+                incoming_date = (test_obj.get("testDate") or "").strip()
+                if incoming_src and (incoming_src, incoming_date) in src_date_keys:
+                    tests_skipped_duplicate += 1
+                    continue
                 existing_keys = {(kit_key(t.get("testType", "")), norm(t.get("testResult", "")))
                                  for t in target["testResults"]}
                 tk = (kit_key(test_obj["testType"]), norm(test_obj["testResult"]))

@@ -168,39 +168,66 @@ JSON_MIXED_REPLACEMENTS = {
 }
 
 
-def _kit_key(s):
-    """Aggressive kit-name normalization: strip hyphens/whitespace so
-    'E-Z Gluten' and 'EZ Gluten' collapse to the same key."""
-    return re.sub(r"[\-\s]+", "", (s or "").lower().strip())
+def _source_of_link(link):
+    if not link:
+        return None
+    h = link.lower()
+    if "nfa" in h or "witchtrials" in h:
+        return "nfa"
+    if "cookingaldante" in h:
+        return "cookingaldante"
+    if "gluteninbeer" in h:
+        return "gluteninbeer"
+    if "smartgurl" in h:
+        return "smartgurl"
+    if "lowgluten" in h:
+        return "lowgluten"
+    return None
 
 
-def _result_key(s):
-    return re.sub(r"\s+", " ", (s or "").lower().strip())
+def _verdict(result_str):
+    r = (result_str or "").lower()
+    if "negative" in r:
+        return "neg"
+    if "positive" in r:
+        return "pos"
+    return "other"
+
+
+def _richness(t):
+    return len(t.get("testNotes") or "") + len(t.get("testResult") or "")
 
 
 def dedupe_tests(tests):
-    """Drop duplicates by (testType_norm, testResult_norm, testDate).
-    For each duplicate group, keep the row with the richest testNotes —
-    repeated imports of the same source row often differ only in how
-    much detail the scraper captured."""
-    groups = {}
-    order = []
-    for t in tests:
-        key = (
-            _kit_key(t.get("testType")),
-            _result_key(t.get("testResult")),
-            (t.get("testDate") or "").strip(),
-        )
-        if key not in groups:
-            groups[key] = t
-            order.append(key)
+    """Deduplicate by (source, date, verdict_direction).
+
+    Same source + same date + same verdict = duplicate; keep the row with the
+    most content (testNotes length + testResult length as proxy for specificity).
+    Same source + same date + opposite verdict = keep both (genuine batch variation).
+    Tests with no recognisable source fall back to the old (kit_key, result, date) key.
+    """
+    winner_indices = {}  # key -> index of current best row
+    fallback_keys = set()  # for tests without a recognised source
+
+    for i, t in enumerate(tests):
+        src = _source_of_link(t.get("testLink"))
+        date = (t.get("testDate") or "").strip()
+
+        if src and date:
+            key = (src, date, _verdict(t.get("testResult")))
         else:
-            cur = groups[key]
-            cur_len = len(cur.get("testNotes") or "")
-            new_len = len(t.get("testNotes") or "")
-            if new_len > cur_len:
-                groups[key] = t
-    return [groups[k] for k in order]
+            kit = re.sub(r"[\-\s]+", "", (t.get("testType") or "").lower().strip())
+            res = re.sub(r"\s+", " ", (t.get("testResult") or "").lower().strip())
+            key = ("_fallback", kit, res, date)
+
+        if key not in winner_indices:
+            winner_indices[key] = i
+        else:
+            if _richness(t) > _richness(tests[winner_indices[key]]):
+                winner_indices[key] = i
+
+    keep = set(winner_indices.values())
+    return [t for i, t in enumerate(tests) if i in keep]
 
 
 def process_json(db):
