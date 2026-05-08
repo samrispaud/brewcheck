@@ -42,16 +42,17 @@ export function generateExplanation(beer) {
   const ns = t.sources;
   const { nNeg, nPos, batchVariation } = t;
 
+  const sourcesLabel = ns === 1 ? "a single source" : `${ns} sources`;
   let explanation;
   switch (t.key) {
     case "consistently-safe":
-      explanation = `Consistently negative across ${ns} sources (${nNeg} negative tests, no positives). The strongest evidence pattern in the dataset.`;
+      explanation = `Consistently negative across ${sourcesLabel} (${nNeg} negative tests, no positives). The strongest evidence pattern in the dataset.`;
       break;
     case "likely-safe":
-      explanation = `Mostly negative results across ${ns} sources (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). Evidence leans clearly toward "below 20 ppm" but isn't unanimous.`;
+      explanation = `Mostly negative results across ${sourcesLabel} (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). Evidence leans clearly toward "below 20 ppm" but isn't unanimous.`;
       break;
     case "inconsistent":
-      explanation = `Tests across ${ns} sources disagree (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). The data is genuinely mixed — treat as uncertain.`;
+      explanation = `Tests across ${sourcesLabel} disagree (${nNeg} negative${nNeg === 1 ? "" : "s"} vs ${nPos} positive${nPos === 1 ? "" : "s"}). The data is genuinely mixed — treat as uncertain.`;
       break;
     case "limited":
       if (nPos === 0) {
@@ -63,7 +64,7 @@ export function generateExplanation(beer) {
       }
       break;
     case "often-above":
-      explanation = `Mostly positive results across ${ns} sources (${nPos} positive${nPos === 1 ? "" : "s"} vs ${nNeg} negative${nNeg === 1 ? "" : "s"}). Evidence leans toward "above the 20 ppm threshold."`;
+      explanation = `Mostly positive results across ${sourcesLabel} (${nPos} positive${nPos === 1 ? "" : "s"} vs ${nNeg} negative${nNeg === 1 ? "" : "s"}). Evidence leans toward "above the 20 ppm threshold."`;
       break;
     case "above":
     default:

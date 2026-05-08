@@ -6,12 +6,13 @@
 //   2. Each test is weighted by source_weight × recency_factor (10y halflife)
 //   3. Negative tests contribute +weight, positive tests contribute −weight
 //   4. raw = (Σ contributions) / (Σ |contributions|) × 50 + 50      (range 0–100)
-//   5. reliability = min(1, n_distinct_sources / 3) × batch_penalty
-//      where batch_penalty = 0.7 if any source disagrees with itself, else 1.0
+//   5. reliability = min(1, effective_sources / 3) × batch_penalty
+//      where effective_sources = n_distinct_sources + 1 if total_tests > n_distinct_sources
+//      and batch_penalty = 0.7 if any source disagrees with itself, else 1.0
 //   6. score = round(raw × reliability)
-//   7. Limited Evidence override: if only 1 source has tested the beer, the
+//   7. Limited Evidence override: if only 1 source AND fewer than 2 tests, the
 //      score still computes but the displayed tier is "limited" regardless
-//      (a single test is too thin to support a confident "safe" or "unsafe" claim).
+//      (a single unreplicated test is too thin to support a confident claim).
 
 const SOURCE_WEIGHTS = {
   nfa:            10,  // kit=5 (R5 ELISA, lab-grade), rigor=5 (published study)
@@ -142,7 +143,9 @@ export function evaluateBeer(beer, today = new Date()) {
   if (absSum === 0) return null;
 
   const raw = (signedSum / absSum) * 50 + 50;
-  const coverage = Math.min(1, sources.size / 3);
+  const totalTests = nNeg + nPos;
+  const effectiveSources = sources.size + (totalTests > sources.size ? 1 : 0);
+  const coverage = Math.min(1, effectiveSources / 3);
   const batchVariation = [...sourceResults.values()].some(set => set.size > 1);
   const reliability = coverage * (batchVariation ? BATCH_PENALTY : 1.0);
   const score = Math.round(raw * reliability);
@@ -164,9 +167,9 @@ export function evaluateBeer(beer, today = new Date()) {
  * Returns { key, label, score } — score may be null if the beer has no
  * recognized test data.
  *
- * Limited Evidence rule: any beer with exactly one distinct source falls
- * into the "limited" tier regardless of score, because a single test is
- * too thin to support a confident safety claim.
+ * Limited Evidence rule: any beer with exactly one distinct source AND fewer
+ * than 2 tests falls into the "limited" tier regardless of score, because a
+ * single unreplicated test is too thin to support a confident safety claim.
  */
 export function tierFor(beer, today = new Date()) {
   const ev = evaluateBeer(beer, today);
@@ -175,7 +178,7 @@ export function tierFor(beer, today = new Date()) {
   }
   const base = { score: ev.score, sources: ev.sources.size, batchVariation: ev.batchVariation, nNeg: ev.nNeg, nPos: ev.nPos };
 
-  if (ev.sources.size === 1) {
+  if (ev.sources.size === 1 && (ev.nNeg + ev.nPos) < 2) {
     // For limited-evidence beers we deliberately suppress the numeric score —
     // a single test isn't enough to support a confident number. Show the
     // label and the raw test result(s); let the reader decide.
@@ -212,7 +215,10 @@ export function evidenceSummary(beer, today = new Date()) {
   }
 
   const parts = [timesLabel];
-  parts.push(`${nNeg} negative + ${nPos} positive`);
+  const resultParts = [];
+  if (nNeg > 0) resultParts.push(`${nNeg} negative`);
+  if (nPos > 0) resultParts.push(`${nPos} positive`);
+  parts.push(resultParts.join(" + "));
   if (batchVariation) parts.push("batch variation observed");
   return parts.join(" · ");
 }
