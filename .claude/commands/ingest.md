@@ -83,7 +83,14 @@ Report the final counts.
 ## Notes on testing_notes
 
 - Keep notes as close to the original source wording as possible
+- Focus only on the test result itself and anything the author noted about the test (e.g. retest context, estimated ppm range, author's confidence in the result)
 - Strip cross-source commentary ("contradicted by X", "consistent with NFA", "per site")
 - Strip meta-narration ("in summary chart", "result unclear")
 - Each note should describe only the observation for that specific test row
 - If the original has no useful note, leave the field empty
+
+**Never include in notes:**
+- ABV or alcohol content of the beer
+- Beer volume, container size, or packaging format
+- Beer ingredients or composition (e.g. "brewed with sorghum", "uses rice adjunct")
+- Observations you inferred yourself that the author did not state — only capture what the author actually said about the test result
