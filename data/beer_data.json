@@ -1,5 +1,20 @@
 [
   {
+    "id": "a386b045-1687-472a-a3a5-ddc166e69adf",
+    "name": "10 Barrel Pub Beer",
+    "brewery": "10 Barrel Brewing",
+    "style": "Lager",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "89246842-fe45-4c07-a6f3-f1e90565b6c5",
     "name": "18:56",
     "brewery": "AB Åbro Brewery",
@@ -187,6 +202,21 @@
     ]
   },
   {
+    "id": "885a1fa6-2cdc-4f18-870d-d84a886698e9",
+    "name": "Bass Ale",
+    "brewery": "Bass Brewers",
+    "style": "Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": "High positive result."
+      }
+    ]
+  },
+  {
     "id": "64e20ce2-0f5a-4474-a048-dbab8b9d9dbf",
     "name": "Bavaria",
     "brewery": "Bavaria",
@@ -314,6 +344,66 @@
     ]
   },
   {
+    "id": "c0124da4-cb7a-413f-8eea-a063e51b4971",
+    "name": "Black is Beautiful - Cookies & Cream Imperial Stout",
+    "brewery": "Little Beast Brewing",
+    "style": "Imperial Stout",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
+    "id": "ee3b51cc-2347-48c9-ae6a-97835ae46973",
+    "name": "Black is Beautiful - Imperial Coffee Stout",
+    "brewery": "Fort George Brewing",
+    "style": "Imperial Stout",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
+    "id": "d8adb3dd-6ae6-47e5-b9ac-53e59ef57f8d",
+    "name": "Black is Beautiful - Imperial Stout",
+    "brewery": "Gigantic Brewing",
+    "style": "Imperial Stout",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
+    "id": "1d8979d8-722c-44fc-993f-88ba7df5e3d3",
+    "name": "Black is Beautiful - Oatmeal Cookie Stout",
+    "brewery": "Trap Door Brewing",
+    "style": "Imperial Stout",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "a71d861c-5b8b-4b07-b2bf-39b4d47fcf1b",
     "name": "Bohemia Pilser",
     "brewery": "Unknown",
@@ -340,6 +430,21 @@
         "testDate": "2020-11-29",
         "testLink": "https://www.lowgluten.org/brand-pilsener-gluten-test/",
         "testNotes": "GlutenTox 5ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "924d185c-27f7-47db-80b6-7d0641543c7a",
+    "name": "Breakside Rainbows & Unicorns IPA",
+    "brewery": "Breakside Brewery",
+    "style": "IPA",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -599,6 +704,36 @@
         "testDate": "2018-09-20",
         "testLink": "https://www.lowgluten.org/carta-blanca-gluten-test/",
         "testNotes": "GlutenTox 20ppm threshold negative."
+      }
+    ]
+  },
+  {
+    "id": "5f0d1b7e-5a2b-429f-a6e6-f6db34442a8a",
+    "name": "Castaway IPA",
+    "brewery": "Kona Brewing",
+    "style": "IPA",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
+    "id": "2066845c-5f0e-47d1-9a4c-0bbcdd98a0d1",
+    "name": "Celebrator Doppelbock",
+    "brewery": "Ayinger",
+    "style": "Doppelbock",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -883,6 +1018,21 @@
     ]
   },
   {
+    "id": "429f3d01-2719-4b32-bfcc-3747a24b431e",
+    "name": "Deschutes Jubelale",
+    "brewery": "Deschutes Brewery",
+    "style": "Winter Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "7ecf5661-cd53-4e74-8f89-683bd8af57a9",
     "name": "Deschutes Juicy Pale",
     "brewery": "Deschutes Brewery",
@@ -894,6 +1044,21 @@
         "testDate": "2022-05-01",
         "testLink": "https://cookingaldante.com/2022/05/03/ez-gluten-results-for-several-gluten-reduced-an-pep-beers-glutenin-skerritt-r5-elisa/",
         "testNotes": "AN-PEP treated gluten-reduced beer. One of 7 tested all positive on EZ Gluten despite manufacturer claims"
+      }
+    ]
+  },
+  {
+    "id": "9b59a9fc-3d4c-41f7-affb-c7c7f6c5dbc2",
+    "name": "Deschutes Mirror Pond Pale Ale",
+    "brewery": "Deschutes Brewery",
+    "style": "Pale Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -1123,6 +1288,21 @@
     ]
   },
   {
+    "id": "84f23870-dce2-46b6-a599-1fa90f987419",
+    "name": "Fire Rock Pale Ale",
+    "brewery": "Kona Brewing",
+    "style": "Pale Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "6ec70b0a-21c4-4f40-ad81-ca8831950938",
     "name": "Fort George Optimist IPA",
     "brewery": "Fort George Brewery",
@@ -1246,6 +1426,13 @@
         "testDate": "2009-01-01",
         "testLink": "http://liveatthewitchtrials.blogspot.com/2012/12/gluten-levels-of-73-beers.html",
         "testNotes": "48mg/L."
+      },
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -1495,6 +1682,21 @@
     ]
   },
   {
+    "id": "51d7b7bf-31b5-4ee4-9d62-5afb71144073",
+    "name": "Kanaha Blonde Ale",
+    "brewery": "Kona Brewing",
+    "style": "Blonde Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "0319296f-f763-48b1-bed8-296cf714374e",
     "name": "Karhu 5.3",
     "brewery": "Karhu",
@@ -1719,6 +1921,21 @@
     ]
   },
   {
+    "id": "34753fdb-5399-43d2-8791-02dc61457a69",
+    "name": "Little Beast Sparkle Horn Sour Ale",
+    "brewery": "Little Beast Brewing",
+    "style": "Sour Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
+      }
+    ]
+  },
+  {
     "id": "70542b91-2f0b-4a3c-a085-8bafcf86cdc4",
     "name": "Lobethal Bohemian Pilsner",
     "brewery": "Lobethal Bierhaus",
@@ -1730,6 +1947,21 @@
         "testDate": "2015-01-01",
         "testLink": "https://www.lowgluten.org/",
         "testNotes": "GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source."
+      }
+    ]
+  },
+  {
+    "id": "9c82bcf7-a564-4182-a342-6ffcd1d61187",
+    "name": "Longboard Island Lager",
+    "brewery": "Kona Brewing",
+    "style": "Lager",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Negative at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -1988,6 +2220,21 @@
         "testDate": "2017-12-08",
         "testLink": "https://www.lowgluten.org/mythos-gluten-test/",
         "testNotes": "Estimated 0ppm."
+      }
+    ]
+  },
+  {
+    "id": "903d660d-316d-4f1d-a818-03fa00dae780",
+    "name": "New Belgium Belgian White Ale",
+    "brewery": "New Belgium",
+    "style": "Witbier",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -2323,6 +2570,13 @@
         "testDate": "2015-01-30",
         "testLink": "https://www.lowgluten.org/pilsner-urquell-gluten-test/",
         "testNotes": "Estimated 0ppm."
+      },
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
@@ -2935,6 +3189,21 @@
         "testDate": "2020-07-01",
         "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
         "testNotes": "Tester consumed without ill effects."
+      }
+    ]
+  },
+  {
+    "id": "884dcade-fcb1-4dc6-95eb-1e7e76bedca8",
+    "name": "Stormbreaker Winter Coat",
+    "brewery": "Stormbreaker Brewing",
+    "style": "Winter Ale",
+    "testResults": [
+      {
+        "testType": "Reveal 3-D for Gliadin (G12)",
+        "testResult": "Positive at 5ppm",
+        "testDate": "2020-07-01",
+        "testLink": "https://smartgurlsolutions.com/beer-low-gluten-test/test-outcomes/",
+        "testNotes": null
       }
     ]
   },
