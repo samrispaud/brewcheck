@@ -98,8 +98,8 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1ppm",
-        "testDate": "2015-12-19",
-        "testLink": "https://www.lowgluten.org/asahi-gluten-test/",
+        "testDate": "2017-03-01",
+        "testLink": "https://www.lowgluten.org/asahi-super-dry-japan/",
         "testNotes": "Estimated ~1ppm. Classified positive by site."
       },
       {
@@ -232,9 +232,9 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2014-03-15",
-        "testLink": "https://www.lowgluten.org/becks-gluten-test/",
-        "testNotes": "GlutenTox 5ppm threshold negative. Both kits negative."
+        "testDate": "2014-12-19",
+        "testLink": "https://www.lowgluten.org/becks-gluten-test-2/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
       }
     ]
   },
@@ -493,7 +493,7 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2013-07-11",
+        "testDate": "2013-11-07",
         "testLink": "https://www.lowgluten.org/busch-beer-gluten-test/",
         "testNotes": "GlutenTox 5ppm threshold negative."
       }
@@ -626,7 +626,7 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "2018-06-05",
+        "testDate": "2018-05-06",
         "testLink": "https://www.lowgluten.org/coopers-birell-ultra-light-gluten-test/",
         "testNotes": "GlutenTox 20ppm threshold negative."
       }
@@ -671,7 +671,7 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 20ppm",
-        "testDate": "2015-08-11",
+        "testDate": "2015-11-08",
         "testLink": "https://www.lowgluten.org/coopers-pale-ale-gluten-test/",
         "testNotes": "GlutenTox 20ppm threshold positive."
       }
@@ -707,7 +707,7 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2014-01-02",
+        "testDate": "2014-02-01",
         "testLink": "https://www.lowgluten.org/coors-light-gluten-test/",
         "testNotes": "GlutenTox 5ppm threshold negative."
       }
@@ -1309,15 +1309,15 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 20ppm",
-        "testDate": "2013-09-22",
-        "testLink": "https://www.lowgluten.org/heineken-gluten-test/",
+        "testDate": "2015-05-07",
+        "testLink": "https://www.lowgluten.org/heineken-gluten-test-2/",
         "testNotes": "GlutenTox 20ppm threshold negative. Test 2 of 3."
       },
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 5ppm",
-        "testDate": "2013-09-22",
-        "testLink": "https://www.lowgluten.org/heineken-gluten-test/",
+        "testDate": "2015-05-07",
+        "testLink": "https://www.lowgluten.org/heineken-gluten-test-2/",
         "testNotes": "GlutenTox 5ppm threshold positive. Test 3 of 3."
       }
     ]
@@ -1503,7 +1503,7 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "2020-01-03",
+        "testDate": "2020-03-01",
         "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
@@ -1548,8 +1548,8 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1ppm",
-        "testDate": "2016-04-30",
-        "testLink": "https://www.lowgluten.org/kirin-heartland-gluten-test/",
+        "testDate": "2017-08-01",
+        "testLink": "https://www.lowgluten.org/kirin-heartland-gluten-test-2/",
         "testNotes": "Estimated 1ppm."
       },
       {
@@ -1690,7 +1690,7 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "2020-01-03",
+        "testDate": "2020-03-01",
         "testLink": "https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/",
         "testNotes": "Estimated 0ppm."
       },
@@ -1779,14 +1779,14 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 20ppm",
-        "testDate": "2016-10-11",
+        "testDate": "2016-11-10",
         "testLink": "https://www.lowgluten.org/lowenbrau-original-gluten-test/",
         "testNotes": "GlutenTox 20ppm threshold positive. Test 1 of 2."
       },
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Positive at 5ppm",
-        "testDate": "2016-10-11",
+        "testDate": "2016-11-10",
         "testLink": "https://www.lowgluten.org/lowenbrau-original-gluten-test/",
         "testNotes": "GlutenTox 5ppm threshold positive. Test 2 of 2. Both tests positive."
       }
@@ -1882,7 +1882,7 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "2014-04-09",
+        "testDate": "2014-09-04",
         "testLink": "https://www.lowgluten.org/miller-lite-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
@@ -1985,7 +1985,7 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "2017-08-12",
+        "testDate": "2017-12-08",
         "testLink": "https://www.lowgluten.org/mythos-gluten-test/",
         "testNotes": "Estimated 0ppm."
       }
@@ -2193,15 +2193,15 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 1-2ppm",
-        "testDate": "2014-01-03",
+        "testDate": "2014-03-01",
         "testLink": "https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/",
         "testNotes": "Estimated 1-2ppm."
       },
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2014-01-03",
-        "testLink": "https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/",
+        "testDate": "2016-05-28",
+        "testLink": "https://www.lowgluten.org/pabst-blue-ribbon-gluten-test-2/",
         "testNotes": "GlutenTox 5ppm threshold negative."
       }
     ]
@@ -2305,7 +2305,7 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Positive 4ppm",
-        "testDate": "2018-01-02",
+        "testDate": "2018-02-01",
         "testLink": "https://www.lowgluten.org/petoskey-sparkle-gluten-test/",
         "testNotes": "Estimated 4ppm."
       }
@@ -2992,7 +2992,7 @@
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2019-08-01",
+        "testDate": "2019-01-08",
         "testLink": "https://www.lowgluten.org/tiger-gluten-test/",
         "testNotes": "GlutenTox 5ppm threshold negative."
       }
@@ -3164,16 +3164,16 @@
       {
         "testType": "Gluten-in-food kit",
         "testResult": "Negative at 10ppm",
-        "testDate": "2015-01-01",
-        "testLink": "https://www.lowgluten.org/",
-        "testNotes": "Estimated 0ppm. Date approximate — original post date not captured in source."
+        "testDate": "2014-04-25",
+        "testLink": "https://www.lowgluten.org/warsteiner-gluten-test/",
+        "testNotes": "Estimated 0ppm."
       },
       {
         "testType": "GlutenTox Home Kit",
         "testResult": "Negative at 5ppm",
-        "testDate": "2015-01-01",
-        "testLink": "https://www.lowgluten.org/",
-        "testNotes": "GlutenTox 5ppm threshold negative. Both kits negative. Date approximate — original post date not captured in source."
+        "testDate": "2014-11-08",
+        "testLink": "https://www.lowgluten.org/warsteiner-gluten-test-2/",
+        "testNotes": "GlutenTox 5ppm threshold negative."
       }
     ]
   },

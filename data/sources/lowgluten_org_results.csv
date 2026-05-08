@@ -1,7 +1,7 @@
 beer,producer,style,source,test_type,test_result,testing_source,testing_notes,test_date
 Ambar Especial,,,, GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/ambar-especial-gluten-test/,GlutenTox threshold 5ppm negative (<5ppm),2016-08-20
 Amstel,Heineken,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/,Estimated 0ppm. Not detected. Date approximate — original post date not captured in source.,2015-01-01
-Asahi Super Dry,Asahi,Lager,,Gluten-in-food kit,Positive 1ppm,https://www.lowgluten.org/asahi-gluten-test/,Estimated ~1ppm. Classified positive by site.,2015-12-19
+Asahi Super Dry,Asahi,Lager,,Gluten-in-food kit,Positive 1ppm,https://www.lowgluten.org/asahi-super-dry-japan/,Estimated ~1ppm. Classified positive by site.,2017-03-01
 Asahi Super Dry,Asahi,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/asahi-gluten-test/,GlutenTox 5ppm threshold negative.,2015-12-19
 Asahi Dry Zero,Asahi,Non-alcoholic Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/asahi-dry-zero/,Estimated 0ppm.,2017-02-08
 Atlas Premium,,,Lager,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/balboa-ice-atlas-gluten-test/,GlutenTox 20ppm threshold negative (5-20ppm range).,2018-05-27
@@ -11,7 +11,7 @@ Balboa Ice,,,Lager,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.or
 Balboa Premium,,,Lager,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/,GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Bavaria,Bavaria,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/,Estimated 5ppm. Negative by EU 20ppm standard. Date approximate — original post date not captured in source.,2015-01-01
 Beck's,Beck's,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/becks-gluten-test/,Estimated 0ppm. Not detected.,2014-03-15
-Beck's,Beck's,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/becks-gluten-test/,GlutenTox 5ppm threshold negative. Both kits negative.,2014-03-15
+Beck's,Beck's,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/becks-gluten-test-2/,GlutenTox 5ppm threshold negative.,2014-12-19
 Bintang,Bintang,Lager,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/,GlutenTox 20ppm threshold positive (>20ppm). Date approximate — original post date not captured in source.,2015-01-01
 Bitburger,Bitburger,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Bohemia Pilser,,,Pilsner,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/,GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
@@ -20,16 +20,16 @@ Brooklyn Lager,Brooklyn Brewery,Lager,,Gluten-in-food kit,Negative at 10ppm,http
 Budweiser Czech Original,Budweiser,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Budweiser US,Anheuser-Busch,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Bud Light,Anheuser-Busch,Light Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/bud-light-gluten-test/,GlutenTox 5ppm threshold negative.,2013-10-28
-Busch,Anheuser-Busch,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/busch-beer-gluten-test/,GlutenTox 5ppm threshold negative.,2013-07-11
+Busch,Anheuser-Busch,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/busch-beer-gluten-test/,GlutenTox 5ppm threshold negative.,2013-11-07
 Cantillon Gueuze,Cantillon,Lambic,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/cantillon-gueuze-gluten-test/,GlutenTox 5ppm threshold positive.,2019-02-23
 Carlsberg,Carlsberg,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/carlsberg-gluten-test/,GlutenTox 20ppm threshold negative. Test 1 of 2.,2013-09-29
 Carlsberg,Carlsberg,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/carlsberg-gluten-test/,GlutenTox 5ppm threshold negative. Test 2 of 2. Both tests negative.,2013-09-29
 Carta Blanca,,,Lager,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/carta-blanca-gluten-test/,GlutenTox 20ppm threshold negative.,2018-09-20
-Coopers Birell Ultra Light,Coopers,Non-alcoholic Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/coopers-birell-ultra-light-gluten-test/,GlutenTox 20ppm threshold negative.,2018-06-05
+Coopers Birell Ultra Light,Coopers,Non-alcoholic Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/coopers-birell-ultra-light-gluten-test/,GlutenTox 20ppm threshold negative.,2018-05-06
 Coopers Clear,Coopers,Light Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/coopers-clear-gluten-test/,GlutenTox 20ppm threshold negative.,2016-09-25
 Coopers Lager,Coopers,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/coopers-lager-gluten-test/,GlutenTox 20ppm threshold negative.,2017-05-01
-Coopers Pale Ale,Coopers,Pale Ale,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/coopers-pale-ale-gluten-test/,GlutenTox 20ppm threshold positive.,2015-08-11
-Coors Light,Coors,Light Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/coors-light-gluten-test/,GlutenTox 5ppm threshold negative.,2014-01-02
+Coopers Pale Ale,Coopers,Pale Ale,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/coopers-pale-ale-gluten-test/,GlutenTox 20ppm threshold positive.,2015-11-08
+Coors Light,Coors,Light Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/coors-light-gluten-test/,GlutenTox 5ppm threshold negative.,2014-02-01
 Corona Extra,Corona,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/corona-test/,Estimated 0ppm. Not detected.,2013-09-06
 DAB Export,DAB,Export Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/dab-export-gluten-test/,GlutenTox 20ppm threshold negative.,2017-04-15
 Dorada,,,Lager,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/dorada-gluten-test/,Estimated 0ppm.,2014-12-01
@@ -42,44 +42,44 @@ Grolsch,Grolsch,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowglute
 Grolsch Kanon,Grolsch,Strong Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/grolsch-kanon-gluten-test/,GlutenTox 20ppm threshold negative.,2020-06-01
 Guinness Draught,Guinness,Stout,,Gluten-in-food kit,Positive 3-4ppm,https://www.lowgluten.org/,Estimated 3-4ppm. Date approximate — original post date not captured in source.,2015-01-01
 Heineken,Heineken,Lager,,GlutenTox Home Kit,Negative at 40ppm,https://www.lowgluten.org/heineken-gluten-test/,GlutenTox 40ppm threshold negative. Test 1 of 3.,2013-09-22
-Heineken,Heineken,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/heineken-gluten-test/,GlutenTox 20ppm threshold negative. Test 2 of 3.,2013-09-22
-Heineken,Heineken,Lager,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/heineken-gluten-test/,GlutenTox 5ppm threshold positive. Test 3 of 3.,2013-09-22
+Heineken,Heineken,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/heineken-gluten-test-2/,GlutenTox 20ppm threshold negative. Test 2 of 3.,2015-05-07
+Heineken,Heineken,Lager,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/heineken-gluten-test-2/,GlutenTox 5ppm threshold positive. Test 3 of 3.,2015-05-07
 Herforder Pils,Herforder,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/herforder-pils-gluten-test/,Estimated 0ppm.,2019-05-26
 Hofbräu Oktoberfestbier,Hofbräu,Märzen,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold positive. Date approximate — original post date not captured in source.,2015-01-01
 Hofbräu Sommerzwickl,Hofbräu,Zwickel,,Gluten-in-food kit,Positive 1-2ppm,https://www.lowgluten.org/hofbrau-sommerzwickl-gluten-test/,Estimated 1-2ppm.,2017-10-15
 Hollandia Premium,Hollandia,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/hollandia-premium-gluten-test/,GlutenTox 20ppm threshold negative.,2018-07-16
 Jack's Abby House Lager,Jack's Abby,Lager,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/jacks-abby-house-lager-gluten-test/,GlutenTox 20ppm threshold positive.,2018-10-20
 James Boag's Premium Lager,James Boag,Lager,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/james-boags-premium-lager-gluten-test/,GlutenTox 20ppm threshold positive.,2016-09-04
-Karhu 5.3,Karhu,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/,Estimated 0ppm.,2020-01-03
+Karhu 5.3,Karhu,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/,Estimated 0ppm.,2020-03-01
 Kingfisher Premium,Kingfisher,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Kirin Hard Cidre,Kirin,Cider,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/kirin-hard-cidre-gluten-test/,Estimated 0ppm.,2017-07-15
-Kirin Heartland,Kirin,Lager,,Gluten-in-food kit,Positive 1ppm,https://www.lowgluten.org/kirin-heartland-gluten-test/,Estimated 1ppm.,2016-04-30
+Kirin Heartland,Kirin,Lager,,Gluten-in-food kit,Positive 1ppm,https://www.lowgluten.org/kirin-heartland-gluten-test-2/,Estimated 1ppm.,2017-08-01
 Kirin Heartland,Kirin,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/kirin-heartland-gluten-test/,GlutenTox 5ppm negative.,2016-04-30
 Kirin Ichiban Shibori,Kirin,Lager,,Gluten-in-food kit,Positive 3-4ppm,https://www.lowgluten.org/kirin-ichiban-shibori/,Estimated 3-4ppm.,2017-04-29
 Kirin Nodogoshi Nama,Kirin,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/kirin-nodogoshi-nama/,Estimated 0ppm.,2017-05-20
 Krombacher Pils,Krombacher,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/krombacher-pils-gluten-test/,GlutenTox 5ppm threshold negative.,2015-05-29
 Krombacher Hell,Krombacher,Helles,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/krombacher-hell-gluten-test/,GlutenTox 5ppm threshold negative.,2015-11-29
 La Chouffe Blonde,Achouffe,Belgian Blonde Ale,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/la-chouffe-blonde-gluten-test/,GlutenTox 5ppm threshold negative.,2015-07-16
-Lapin Kulta,Hartwall,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/,Estimated 0ppm.,2020-01-03
+Lapin Kulta,Hartwall,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/karhu-53-lapin-kulta-gluten-test/,Estimated 0ppm.,2020-03-01
 Lobethal Bohemian Pilsner,Lobethal Bierhaus,Pilsner,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/,GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Lost & Grounded Keller Pils,Lost & Grounded,Kellerbier,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold positive. Date approximate — original post date not captured in source.,2015-01-01
 Löwenbräu Oktoberfestbier,Löwenbräu,Märzen,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold positive. Date approximate — original post date not captured in source.,2015-01-01
-Löwenbräu Original,Löwenbräu,Helles,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/lowenbrau-original-gluten-test/,GlutenTox 20ppm threshold positive. Test 1 of 2.,2016-10-11
-Löwenbräu Original,Löwenbräu,Helles,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/lowenbrau-original-gluten-test/,GlutenTox 5ppm threshold positive. Test 2 of 2. Both tests positive.,2016-10-11
+Löwenbräu Original,Löwenbräu,Helles,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/lowenbrau-original-gluten-test/,GlutenTox 20ppm threshold positive. Test 1 of 2.,2016-11-10
+Löwenbräu Original,Löwenbräu,Helles,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/lowenbrau-original-gluten-test/,GlutenTox 5ppm threshold positive. Test 2 of 2. Both tests positive.,2016-11-10
 Michelob Ultra,Anheuser-Busch,Light Lager,,Gluten-in-food kit,Positive 1ppm,https://www.lowgluten.org/michelob-ultra-gluten-test/,Estimated 1ppm.,2014-06-18
 Miller High Life,Miller,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/miller-high-life-gluten-test/,GlutenTox 5ppm threshold negative.,2013-11-30
-Miller Lite,Miller,Light Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/miller-lite-gluten-test/,Estimated 0ppm.,2014-04-09
+Miller Lite,Miller,Light Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/miller-lite-gluten-test/,Estimated 0ppm.,2014-09-04
 Modelo Especial,Grupo Modelo,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/modelo-especial-gluten-test/,GlutenTox 5ppm threshold negative.,2016-10-16
 Moosehead,Moosehead,Lager,,Gluten-in-food kit,Positive 4-5ppm,https://www.lowgluten.org/,Estimated 4-5ppm. Date approximate — original post date not captured in source.,2015-01-01
-Mythos,Mythos,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/mythos-gluten-test/,Estimated 0ppm.,2017-08-12
+Mythos,Mythos,Lager,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/mythos-gluten-test/,Estimated 0ppm.,2017-12-08
 Newcastle Brown Ale,Newcastle,Brown Ale,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/newcastle-brown-ale-gluten-test/,GlutenTox 5ppm threshold positive.,2015-09-01
-Pabst Blue Ribbon,Pabst,Lager,,Gluten-in-food kit,Positive 1-2ppm,https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/,Estimated 1-2ppm.,2014-01-03
-Pabst Blue Ribbon,Pabst,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/,GlutenTox 5ppm threshold negative.,2014-01-03
+Pabst Blue Ribbon,Pabst,Lager,,Gluten-in-food kit,Positive 1-2ppm,https://www.lowgluten.org/pabst-blue-ribbon-gluten-test/,Estimated 1-2ppm.,2014-03-01
+Pabst Blue Ribbon,Pabst,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/pabst-blue-ribbon-gluten-test-2/,GlutenTox 5ppm threshold negative.,2016-05-28
 Pale 31,Firestone Walker,Pale Ale,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/firestone-walker-pale-31-gluten-test/,GlutenTox 5ppm threshold negative.,2015-10-15
 Panama Lager,,,Lager,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/panama-balboa-soberana-gluten-test/,GlutenTox 20ppm threshold positive.,2018-04-21
 Paulaner Weissbier,Paulaner,Wheat Beer,,GlutenTox Home Kit,Positive at 20ppm,https://www.lowgluten.org/paulaner-weissbier-gluten-test/,GlutenTox 20ppm threshold positive.,2016-02-21
 Perlenbacher Pils,Perlenbacher,Pilsner,,Gluten-in-food kit,Positive 3ppm,https://www.lowgluten.org/,Estimated 3ppm. Date approximate — original post date not captured in source.,2015-01-01
-Petoskey Sparkle,Petoskey,Lager,,Gluten-in-food kit,Positive 4ppm,https://www.lowgluten.org/petoskey-sparkle-gluten-test/,Estimated 4ppm.,2018-01-02
+Petoskey Sparkle,Petoskey,Lager,,Gluten-in-food kit,Positive 4ppm,https://www.lowgluten.org/petoskey-sparkle-gluten-test/,Estimated 4ppm.,2018-02-01
 Pilsner Urquell,Pilsner Urquell,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/pilsner-urquell-gluten-test/,Estimated 0ppm.,2015-01-30
 Pirate Life Pilsner,Pirate Life,Pilsner,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/pirate-life-pilsner-gluten-test/,GlutenTox 20ppm threshold negative.,2018-06-24
 Quilmes,Quilmes,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/quilmes-gluten-test/,GlutenTox 5ppm threshold negative.,2015-07-31
@@ -97,14 +97,14 @@ Steinlager Pure,Lion,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.low
 Stella Artois,AB InBev,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/stella-artois-gluten-test/,Estimated 0ppm.,2017-09-17
 Stiegl Goldbräu,Stiegl,Lager,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/stiegl-goldbrau-gluten-test/,GlutenTox 5ppm threshold positive.,2016-07-23
 Stockade Duel Hoppy,Stockade,Hoppy Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/,GlutenTox 20ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
-Tiger,Tiger,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/tiger-gluten-test/,GlutenTox 5ppm threshold negative.,2019-08-01
+Tiger,Tiger,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/tiger-gluten-test/,GlutenTox 5ppm threshold negative.,2019-01-08
 Timisoreana,,,Lager,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/timisoreana-gluten-test/,Estimated 0ppm.,2019-06-26
 Tsingtao,Tsingtao,Lager,,Gluten-in-food kit,Positive 6ppm,https://www.lowgluten.org/tsingtao-gluten-test/,Estimated 6ppm.,2014-08-11
 Tuborg Christmasbeer,Tuborg,Christmas Beer,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Tuborg Pilsener,Tuborg,Pilsner,,Gluten-in-food kit,Positive 2ppm,https://www.lowgluten.org/tuborg-pilsener-gluten-test/,Estimated 2ppm.,2020-04-01
 Tyskie,Tyskie,Lager,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Date approximate — original post date not captured in source.,2015-01-01
 Vale Lager,Vale,Lager,,GlutenTox Home Kit,Negative at 20ppm,https://www.lowgluten.org/vale-lager-gluten-test/,GlutenTox 20ppm threshold negative.,2017-06-03
-Warsteiner,Warsteiner,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/,Estimated 0ppm. Date approximate — original post date not captured in source.,2015-01-01
-Warsteiner,Warsteiner,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold negative. Both kits negative. Date approximate — original post date not captured in source.,2015-01-01
+Warsteiner,Warsteiner,Pilsner,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/warsteiner-gluten-test/,Estimated 0ppm.,2014-04-25
+Warsteiner,Warsteiner,Pilsner,,GlutenTox Home Kit,Negative at 5ppm,https://www.lowgluten.org/warsteiner-gluten-test-2/,GlutenTox 5ppm threshold negative.,2014-11-08
 Weihenstephaner Helles,Weihenstephaner,Helles,,GlutenTox Home Kit,Positive at 5ppm,https://www.lowgluten.org/,GlutenTox 5ppm threshold positive. Date approximate — original post date not captured in source.,2015-01-01
 Zillertal Märzen,Zillertal,Märzen,,Gluten-in-food kit,Negative at 10ppm,https://www.lowgluten.org/,Estimated 0ppm. Date approximate — original post date not captured in source.,2015-01-01
