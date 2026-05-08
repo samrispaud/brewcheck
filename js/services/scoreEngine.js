@@ -197,8 +197,8 @@ export function tierFor(beer, today = new Date()) {
  * Short evidence summary for UI subtext.
  * Examples:
  *   "Tested 6 times · 5 negative + 1 positive · batch variation"
- *   "Tested once · 2 negative results"
- *   "Tested once · 1 positive result"
+ *   "Tested once · 2 negative"
+ *   "Tested once · 1 positive"
  */
 export function evidenceSummary(beer, today = new Date()) {
   const ev = evaluateBeer(beer, today);
@@ -209,8 +209,8 @@ export function evidenceSummary(beer, today = new Date()) {
   const timesLabel = total === 1 ? "Tested once" : `Tested ${total} times`;
 
   if (ns === 1) {
-    if (nPos === 0) return `${timesLabel} · ${nNeg} negative result${nNeg === 1 ? "" : "s"}`;
-    if (nNeg === 0) return `${timesLabel} · ${nPos} positive result${nPos === 1 ? "" : "s"}`;
+    if (nPos === 0) return `${timesLabel} · ${nNeg} negative`;
+    if (nNeg === 0) return `${timesLabel} · ${nPos} positive`;
     return `${timesLabel} · ${nNeg} negative + ${nPos} positive`;
   }
 
